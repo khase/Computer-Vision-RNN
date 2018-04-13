@@ -8,3 +8,6 @@ Ziel dieses Projektes ist es ein RNN zu trainieren, sodass es einen Gegenstand (
 [Slack](https://computer-vision-rnn.slack.com)
 
 [Trello](https://trello.com/b/XAJalI7K/rnn-computer-vision)
+
+### Linksammlung allgemein
+https://www.quora.com/Why-is-no-visual-tracking-algorithm-using-RNN-LSTM - Interessante Artikelsammlung über RNN/Object Tracking
