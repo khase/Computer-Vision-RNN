@@ -44,7 +44,7 @@ Der erste ball bekommt als tag eine `1`, der zweite eine `2`, der dritte eine `3
 }
 ```  
 
-#### BOX
+#### Box
 ```JSON
 {
 	"width": INT,
