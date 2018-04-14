@@ -13,8 +13,8 @@ Die Annotations JSON-Files mit einem Array aus `Frames`
 #### Frame
 ```JSON
 {
-	frameNumber: INT,
-	balls: 
+	"frameNumber": INT,
+	"balls": 
 	[
 		BALL,
 		BALL,
@@ -30,25 +30,25 @@ Der erste ball bekommt als tag eine `1`, der zweite eine `2`, der dritte eine `3
 `boundingBox` beschreibt die ausmaße (Höhe und Breite) des Balles im Frame.
 ```JSON
 {
-	tag: INT,
-	position: POINT,
-	boundingBox: BOX
+	"tag": INT,
+	"position": POINT,
+	"boundingBox": BOX
 }
 ```  
 
 #### Point
 ```JSON
 {
-	x: INT,
-	y: INT
+	"x": INT,
+	"y": INT
 }
 ```  
 
 #### BOX
 ```JSON
 {
-	width: INT,
-	height: INT
+	"width": INT,
+	"height": INT
 }
 ```  
 
