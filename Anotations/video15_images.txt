@@ -1,0 +1,53 @@
+[
+	{
+		"frameNumber": 0,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 1,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 2,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 3,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1518, "y": 62},
+				"boundingBox": {"width": 75, "height": 66}
+			}
+		]
+	},
+	{
+		"frameNumber": 4,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 5,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1146, "y": 104},
+				"boundingBox": {"width": 70, "height": 69}
+			}
+		]
+	}]

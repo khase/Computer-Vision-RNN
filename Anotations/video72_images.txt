@@ -1,0 +1,27 @@
+[
+	{
+		"frameNumber": 0,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 1,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 2,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 322, "y": 98},
+				"boundingBox": {"width": 106, "height": 93}
+			}
+		]
+	}]

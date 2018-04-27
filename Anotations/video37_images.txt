@@ -1,0 +1,32 @@
+[
+	{
+		"frameNumber": 0,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 1,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 514, "y": 36},
+				"boundingBox": {"width": 93, "height": 67}
+			}
+		]
+	},
+	{
+		"frameNumber": 2,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 374, "y": 141},
+				"boundingBox": {"width": 96, "height": 94}
+			}
+		]
+	}]

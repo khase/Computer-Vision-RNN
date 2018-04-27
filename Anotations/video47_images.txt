@@ -1,0 +1,75 @@
+[
+	{
+		"frameNumber": 0,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 1,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 2,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 3,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 215, "y": 1046},
+				"boundingBox": {"width": 98, "height": 68}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 213, "y": 1044},
+				"boundingBox": {"width": 104, "height": 71}
+			}
+		]
+	},
+	{
+		"frameNumber": 4,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 371, "y": 924},
+				"boundingBox": {"width": 94, "height": 81}
+			}
+		]
+	},
+	{
+		"frameNumber": 5,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 528, "y": 810},
+				"boundingBox": {"width": 89, "height": 79}
+			}
+		]
+	},
+	{
+		"frameNumber": 6,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 694, "y": 708},
+				"boundingBox": {"width": 81, "height": 84}
+			}
+		]
+	}]
