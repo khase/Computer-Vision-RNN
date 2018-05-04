@@ -62,3 +62,5 @@ Der erste ball bekommt als tag eine `1`, der zweite eine `2`, der dritte eine `3
 https://www.quora.com/Why-is-no-visual-tracking-algorithm-using-RNN-LSTM - Interessante Artikelsammlung über RNN/Object Tracking
 
 http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/ - How To RNN selber schreiben
+
+https://medium.com/@erikhallstrm/hello-world-rnn-83cd7105b767 Setup RNN in Tensorflow
