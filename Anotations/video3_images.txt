@@ -47,11 +47,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1074, "y": 524},
-				"boundingBox": {"width": 75, "height": 65}
-			}
 		]
 	},
 	{
@@ -59,11 +54,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1062, "y": 410},
-				"boundingBox": {"width": 69, "height": 67}
-			}
 		]
 	},
 	{
@@ -71,16 +61,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1047, "y": 310},
-				"boundingBox": {"width": 66, "height": 62}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1049, "y": 312},
-				"boundingBox": {"width": 68, "height": 65}
-			}
 		]
 	},
 	{

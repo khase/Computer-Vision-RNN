@@ -39,11 +39,6 @@
 				"tag": 1,
 				"position": {"x": 162, "y": 777},
 				"boundingBox": {"width": 99, "height": 84}
-			},
-			{
-				"tag": 2,
-				"position": {"x": 35, "y": 908},
-				"boundingBox": {"width": 64, "height": 69}
 			}
 		]
 	},
@@ -95,11 +90,6 @@
 				"tag": 1,
 				"position": {"x": 1376, "y": 40},
 				"boundingBox": {"width": 117, "height": 77}
-			},
-			{
-				"tag": 2,
-				"position": {"x": 1376, "y": 40},
-				"boundingBox": {"width": 115, "height": 76}
 			}
 		]
 	},

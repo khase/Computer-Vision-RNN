@@ -27,11 +27,6 @@
 				"tag": 1,
 				"position": {"x": 1824, "y": 302},
 				"boundingBox": {"width": 107, "height": 91}
-			},
-			{
-				"tag": 2,
-				"position": {"x": 78, "y": 1040},
-				"boundingBox": {"width": 153, "height": 77}
 			}
 		]
 	},
@@ -42,16 +37,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 100, "y": 984},
-				"boundingBox": {"width": 199, "height": 158}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1716, "y": 182},
 				"boundingBox": {"width": 105, "height": 90}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 570, "y": 884},
 				"boundingBox": {"width": 85, "height": 80}
 			}
@@ -64,16 +54,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 80, "y": 902},
-				"boundingBox": {"width": 159, "height": 182}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1613, "y": 82},
 				"boundingBox": {"width": 96, "height": 88}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 722, "y": 772},
 				"boundingBox": {"width": 83, "height": 82}
 			}
@@ -86,18 +71,8 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 58, "y": 864},
-				"boundingBox": {"width": 117, "height": 125}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 876, "y": 674},
 				"boundingBox": {"width": 86, "height": 83}
-			},
-			{
-				"tag": 2,
-				"position": {"x": 1502, "y": 24},
-				"boundingBox": {"width": 88, "height": 43}
 			}
 		]
 	},
@@ -108,11 +83,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 35, "y": 800},
-				"boundingBox": {"width": 70, "height": 97}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1033, "y": 590},
 				"boundingBox": {"width": 90, "height": 81}
 			}
@@ -137,11 +107,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1357, "y": 466},
-				"boundingBox": {"width": 96, "height": 89}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1358, "y": 466},
 				"boundingBox": {"width": 98, "height": 90}
 			}
@@ -223,11 +188,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 62, "y": 571},
-				"boundingBox": {"width": 123, "height": 326}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 403, "y": 140},
 				"boundingBox": {"width": 84, "height": 87}
 			}
@@ -240,11 +200,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 86, "y": 568},
-				"boundingBox": {"width": 172, "height": 329}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 317, "y": 246},
 				"boundingBox": {"width": 88, "height": 82}
 			}

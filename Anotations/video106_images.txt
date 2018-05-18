@@ -25,11 +25,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 44, "y": 976},
-				"boundingBox": {"width": 89, "height": 142}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 256, "y": 835},
 				"boundingBox": {"width": 93, "height": 82}
 			}
@@ -42,11 +37,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 34, "y": 892},
-				"boundingBox": {"width": 67, "height": 153}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 352, "y": 688},
 				"boundingBox": {"width": 97, "height": 83}
 			}
@@ -141,11 +131,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 480, "y": 296},
-				"boundingBox": {"width": 109, "height": 96}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 482, "y": 292},
 				"boundingBox": {"width": 100, "height": 97}
 			}
@@ -158,16 +143,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 28, "y": 849},
-				"boundingBox": {"width": 55, "height": 98}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1156, "y": 73},
 				"boundingBox": {"width": 90, "height": 90}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 320, "y": 439},
 				"boundingBox": {"width": 99, "height": 94}
 			}

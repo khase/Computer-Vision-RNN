@@ -220,11 +220,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 26, "y": 739},
-				"boundingBox": {"width": 47, "height": 204}
-			}
 		]
 	},
 	{
@@ -232,10 +227,5 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 42, "y": 765},
-				"boundingBox": {"width": 83, "height": 256}
-			}
 		]
 	}]

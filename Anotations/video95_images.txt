@@ -22,11 +22,6 @@
 				"tag": 0,
 				"position": {"x": 280, "y": 958},
 				"boundingBox": {"width": 101, "height": 89}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 19, "y": 970},
-				"boundingBox": {"width": 36, "height": 81}
 			}
 		]
 	},
@@ -51,11 +46,6 @@
 				"tag": 0,
 				"position": {"x": 1870, "y": 364},
 				"boundingBox": {"width": 97, "height": 89}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 499, "y": 740},
-				"boundingBox": {"width": 104, "height": 95}
 			}
 		]
 	},
@@ -131,11 +121,6 @@
 				"tag": 0,
 				"position": {"x": 1148, "y": 464},
 				"boundingBox": {"width": 111, "height": 109}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1435, "y": 18},
-				"boundingBox": {"width": 98, "height": 36}
 			}
 		]
 	},
@@ -160,11 +145,6 @@
 				"tag": 0,
 				"position": {"x": 1446, "y": 474},
 				"boundingBox": {"width": 118, "height": 120}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1251, "y": 14},
-				"boundingBox": {"width": 84, "height": 27}
 			}
 		]
 	},

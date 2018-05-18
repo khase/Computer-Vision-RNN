@@ -20,11 +20,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 155, "y": 986},
-				"boundingBox": {"width": 292, "height": 175}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 502, "y": 934},
 				"boundingBox": {"width": 91, "height": 73}
 			}
@@ -37,11 +32,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 147, "y": 920},
-				"boundingBox": {"width": 288, "height": 191}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 630, "y": 812},
 				"boundingBox": {"width": 81, "height": 79}
 			}
@@ -54,18 +44,8 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 145, "y": 879},
-				"boundingBox": {"width": 288, "height": 206}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 761, "y": 702},
 				"boundingBox": {"width": 86, "height": 76}
-			},
-			{
-				"tag": 2,
-				"position": {"x": 758, "y": 700},
-				"boundingBox": {"width": 87, "height": 77}
 			}
 		]
 	}]

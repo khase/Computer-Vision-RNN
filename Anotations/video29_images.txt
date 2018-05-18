@@ -82,11 +82,6 @@
 				"tag": 0,
 				"position": {"x": 1208, "y": 296},
 				"boundingBox": {"width": 71, "height": 67}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1210, "y": 295},
-				"boundingBox": {"width": 73, "height": 66}
 			}
 		]
 	},
@@ -150,11 +145,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1207, "y": 14},
-				"boundingBox": {"width": 60, "height": 28}
-			}
 		]
 	},
 	{
@@ -176,11 +166,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1206, "y": 20},
-				"boundingBox": {"width": 61, "height": 41}
-			}
 		]
 	},
 	{
@@ -219,11 +204,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1220, "y": 134},
-				"boundingBox": {"width": 61, "height": 61}
-			}
 		]
 	},
 	{
@@ -233,11 +213,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1226, "y": 180},
-				"boundingBox": {"width": 61, "height": 62}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1226, "y": 182},
 				"boundingBox": {"width": 64, "height": 64}
 			}

@@ -63,11 +63,6 @@
 				"tag": 0,
 				"position": {"x": 1379, "y": 218},
 				"boundingBox": {"width": 86, "height": 84}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1378, "y": 219},
-				"boundingBox": {"width": 90, "height": 82}
 			}
 		]
 	},
@@ -85,11 +80,6 @@
 				"tag": 1,
 				"position": {"x": 50, "y": 154},
 				"boundingBox": {"width": 89, "height": 86}
-			},
-			{
-				"tag": 2,
-				"position": {"x": 1256, "y": 188},
-				"boundingBox": {"width": 83, "height": 87}
 			}
 		]
 	},
@@ -98,11 +88,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1130, "y": 178},
-				"boundingBox": {"width": 87, "height": 86}
-			}
 		]
 	},
 	{

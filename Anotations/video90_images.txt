@@ -32,11 +32,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 46, "y": 937},
-				"boundingBox": {"width": 92, "height": 102}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 174, "y": 850},
 				"boundingBox": {"width": 99, "height": 81}
 			}
@@ -54,11 +49,6 @@
 			},
 			{
 				"tag": 1,
-				"position": {"x": 29, "y": 844},
-				"boundingBox": {"width": 58, "height": 91}
-			},
-			{
-				"tag": 2,
 				"position": {"x": 1902, "y": 538},
 				"boundingBox": {"width": 37, "height": 83}
 			}
@@ -215,11 +205,6 @@
 				"tag": 0,
 				"position": {"x": 1367, "y": 342},
 				"boundingBox": {"width": 110, "height": 119}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1358, "y": 343},
-				"boundingBox": {"width": 105, "height": 112}
 			}
 		]
 	}]

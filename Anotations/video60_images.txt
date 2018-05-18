@@ -146,11 +146,6 @@
 				"tag": 1,
 				"position": {"x": 1488, "y": 282},
 				"boundingBox": {"width": 108, "height": 105}
-			},
-			{
-				"tag": 2,
-				"position": {"x": 1490, "y": 278},
-				"boundingBox": {"width": 112, "height": 106}
 			}
 		]
 	}]

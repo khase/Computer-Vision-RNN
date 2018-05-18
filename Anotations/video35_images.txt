@@ -32,11 +32,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 652, "y": 184},
-				"boundingBox": {"width": 88, "height": 83}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 654, "y": 186},
 				"boundingBox": {"width": 82, "height": 79}
 			}
@@ -47,10 +42,5 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 525, "y": 298},
-				"boundingBox": {"width": 84, "height": 81}
-			}
 		]
 	}]

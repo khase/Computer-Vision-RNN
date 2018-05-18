@@ -13,11 +13,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 70, "y": 998},
-				"boundingBox": {"width": 140, "height": 150}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 240, "y": 960},
 				"boundingBox": {"width": 97, "height": 89}
 			}
@@ -30,11 +25,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 58, "y": 916},
-				"boundingBox": {"width": 116, "height": 147}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 344, "y": 796},
 				"boundingBox": {"width": 100, "height": 82}
 			}

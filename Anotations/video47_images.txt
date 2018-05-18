@@ -29,11 +29,6 @@
 				"tag": 0,
 				"position": {"x": 215, "y": 1046},
 				"boundingBox": {"width": 98, "height": 68}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 213, "y": 1044},
-				"boundingBox": {"width": 104, "height": 71}
 			}
 		]
 	},

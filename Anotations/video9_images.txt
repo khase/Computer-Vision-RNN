@@ -18,11 +18,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1457, "y": 37},
-				"boundingBox": {"width": 76, "height": 70}
-			}
 		]
 	},
 	{
@@ -30,11 +25,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1330, "y": 92},
-				"boundingBox": {"width": 77, "height": 73}
-			}
 		]
 	},
 	{

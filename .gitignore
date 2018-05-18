@@ -35,3 +35,6 @@ sysinfo.txt
 *.unitypackage
 samples/
 mask_rcnn_coco.h5
+*.jpg
+*.jpeg
+*.avi

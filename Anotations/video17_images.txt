@@ -20,11 +20,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1405, "y": 36},
-				"boundingBox": {"width": 74, "height": 73}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1406, "y": 38},
 				"boundingBox": {"width": 73, "height": 71}
 			}
@@ -35,10 +30,5 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1300, "y": 96},
-				"boundingBox": {"width": 73, "height": 75}
-			}
 		]
 	}]

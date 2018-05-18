@@ -18,10 +18,5 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 456, "y": 52},
-				"boundingBox": {"width": 65, "height": 60}
-			}
 		]
 	}]

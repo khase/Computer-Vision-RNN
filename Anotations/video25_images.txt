@@ -35,11 +35,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1336, "y": 756},
-				"boundingBox": {"width": 75, "height": 66}
-			}
 		]
 	},
 	{
@@ -59,11 +54,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1269, "y": 572},
-				"boundingBox": {"width": 66, "height": 63}
-			}
 		]
 	},
 	{
@@ -71,11 +61,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1238, "y": 504},
-				"boundingBox": {"width": 61, "height": 59}
-			}
 		]
 	},
 	{
@@ -85,11 +70,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1210, "y": 452},
-				"boundingBox": {"width": 58, "height": 57}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1210, "y": 454},
 				"boundingBox": {"width": 60, "height": 59}
 			}
@@ -131,11 +111,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1130, "y": 374},
-				"boundingBox": {"width": 60, "height": 58}
-			}
 		]
 	},
 	{
@@ -167,11 +142,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1082, "y": 436},
-				"boundingBox": {"width": 65, "height": 61}
-			}
 		]
 	},
 	{
@@ -181,11 +151,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1063, "y": 482},
-				"boundingBox": {"width": 66, "height": 69}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1064, "y": 485},
 				"boundingBox": {"width": 68, "height": 68}
 			}
@@ -198,11 +163,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1047, "y": 544},
-				"boundingBox": {"width": 68, "height": 69}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1046, "y": 546},
 				"boundingBox": {"width": 67, "height": 71}
 			}
@@ -292,11 +252,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1168, "y": 685},
-				"boundingBox": {"width": 64, "height": 64}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1166, "y": 686},
 				"boundingBox": {"width": 67, "height": 64}
 			}
@@ -307,11 +262,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1168, "y": 625},
-				"boundingBox": {"width": 64, "height": 62}
-			}
 		]
 	},
 	{
@@ -319,11 +269,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1168, "y": 580},
-				"boundingBox": {"width": 62, "height": 63}
-			}
 		]
 	},
 	{
@@ -331,11 +276,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1168, "y": 546},
-				"boundingBox": {"width": 62, "height": 61}
-			}
 		]
 	},
 	{
@@ -343,11 +283,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1167, "y": 524},
-				"boundingBox": {"width": 58, "height": 58}
-			}
 		]
 	},
 	{
@@ -355,11 +290,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1166, "y": 512},
-				"boundingBox": {"width": 59, "height": 59}
-			}
 		]
 	},
 	{
@@ -379,10 +309,5 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1163, "y": 528},
-				"boundingBox": {"width": 58, "height": 58}
-			}
 		]
 	}]

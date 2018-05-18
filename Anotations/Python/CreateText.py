@@ -8,6 +8,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import glob
 import re
+import cv2
 
 def sort_human(l):
 
@@ -78,6 +79,9 @@ class_names = ['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane',
                'teddy bear', 'hair drier', 'toothbrush']
 
 subdirs = glob.glob("*images")
+h = 0
+k = 0
+img=[]
 #subdirs = sort_human(subdirs)
 for filename in subdirs:
     directory = filename
@@ -93,6 +97,26 @@ for filename in subdirs:
         # Run detection
         results = model.detect([image], verbose=0)
         testArray = [int(s) for s in re.findall(r'\d+', frameName.split('\\')[1])]
+        r = results[0]
+        testDir = frameName + 'A.jpeg'
+
+        indexesToDelete=[]
+        o = 0
+        for imageclass in r['class_ids']:
+            if (class_names[imageclass] != 'sports ball'):
+                indexesToDelete.append(o)
+            o = o + 1
+
+        #for idToDelete in reversed(indexesToDelete):
+        if (len(indexesToDelete) > 0):
+            r['rois'] = np.delete(r['rois'], indexesToDelete, axis=0)
+            r['masks'] = np.delete(r['masks'], indexesToDelete, axis=2)
+            r['class_ids'] = np.delete(r['class_ids'], indexesToDelete)
+            r['scores'] = np.delete(r['scores'], indexesToDelete)
+
+        visualize.writeImage(image, r['rois'], r['masks'], r['class_ids'], class_names, testDir, r['scores'])
+        img.append(cv2.imread(testDir))
+        #os.remove(testDir)
 
         # Visualize results
         r = results[0]
@@ -102,9 +126,10 @@ for filename in subdirs:
         file.write('\n\t\t"frameNumber": ' + str(testArray[0]) +',\n')
         file.write('\t\t"balls":\n')
         file.write('\t\t[\n')
+
         i = 0
         for roi in r['rois']:
-            if r['class_ids'][i] == 60:
+            if class_names[r['class_ids'][i]] != 'sports ball':
                 continue
             if i > 0:
                 file.write(',')
@@ -125,8 +150,43 @@ for filename in subdirs:
         file.write('\n\t\t]\n')
         file.write('\t}')
 
+    h = h + j
+
+    if h > 250:
+
+
+        height,width,layers=img[1].shape
+
+        video=cv2.VideoWriter('video'+str(k)+'.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (1920,1080))
+        print(h)
+        for g in range(0,h):
+            print(g)
+            video.write(img[g])
+
+        print("writtenVideo")
+        print(directory+str(k)+'.avi')
+        cv2.destroyAllWindows()
+        video.release()
+        img=[]
+        k = k + 1
+        h = 0
+
     file.write(']')
     file.close()
+
+height,width,layers=img[1].shape
+
+video=cv2.VideoWriter('video'+str(k)+'.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (1920,1080))
+print(h)
+for g in range(0,h):
+    print(g)
+    video.write(img[g])
+
+print("writtenVideo")
+print(directory+str(k)+'.avi')
+cv2.destroyAllWindows()
+video.release()
+
 '''
         file = open(frameName,"w")
 

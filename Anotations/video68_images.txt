@@ -78,11 +78,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1296, "y": 41},
-				"boundingBox": {"width": 91, "height": 78}
-			}
 		]
 	},
 	{
@@ -90,11 +85,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1196, "y": 25},
-				"boundingBox": {"width": 96, "height": 50}
-			}
 		]
 	},
 	{
@@ -102,11 +92,6 @@
 		"balls":
 		[
 
-			{
-				"tag": 0,
-				"position": {"x": 1091, "y": 21},
-				"boundingBox": {"width": 92, "height": 40}
-			}
 		]
 	},
 	{
@@ -164,16 +149,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 53, "y": 892},
-				"boundingBox": {"width": 106, "height": 157}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 272, "y": 818},
 				"boundingBox": {"width": 86, "height": 73}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 594, "y": 192},
 				"boundingBox": {"width": 94, "height": 98}
 			}
@@ -186,16 +166,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 44, "y": 838},
-				"boundingBox": {"width": 88, "height": 161}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 385, "y": 689},
 				"boundingBox": {"width": 88, "height": 74}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 496, "y": 283},
 				"boundingBox": {"width": 93, "height": 90}
 			}
@@ -208,16 +183,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 40, "y": 818},
-				"boundingBox": {"width": 80, "height": 159}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 497, "y": 568},
 				"boundingBox": {"width": 86, "height": 79}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 395, "y": 390},
 				"boundingBox": {"width": 84, "height": 96}
 			}
@@ -230,16 +200,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 45, "y": 826},
-				"boundingBox": {"width": 90, "height": 155}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 296, "y": 516},
 				"boundingBox": {"width": 91, "height": 87}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 619, "y": 466},
 				"boundingBox": {"width": 94, "height": 83}
 			}
@@ -252,16 +217,11 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 51, "y": 846},
-				"boundingBox": {"width": 102, "height": 163}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 204, "y": 659},
 				"boundingBox": {"width": 97, "height": 92}
 			},
 			{
-				"tag": 2,
+				"tag": 1,
 				"position": {"x": 742, "y": 370},
 				"boundingBox": {"width": 92, "height": 82}
 			}

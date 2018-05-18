@@ -51,11 +51,6 @@
 				"tag": 0,
 				"position": {"x": 1599, "y": 266},
 				"boundingBox": {"width": 88, "height": 79}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1600, "y": 266},
-				"boundingBox": {"width": 89, "height": 79}
 			}
 		]
 	},
@@ -78,11 +73,6 @@
 
 			{
 				"tag": 0,
-				"position": {"x": 1385, "y": 94},
-				"boundingBox": {"width": 86, "height": 81}
-			},
-			{
-				"tag": 1,
 				"position": {"x": 1384, "y": 92},
 				"boundingBox": {"width": 91, "height": 82}
 			}
