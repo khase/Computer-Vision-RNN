@@ -118,12 +118,24 @@ namespace FrameAnalyser
                 {
                     frame.Balls.Add(new dto.Ball());
                     ball = frame.Balls[0];
-                    ball.Position = new dto.Point();
-                    ball.Position.X = 1920 / 2;
-                    ball.Position.Y = 1080 / 2;
-                    ball.BoundingBox = new dto.Box();
-                    ball.BoundingBox.Width = 80;
-                    ball.BoundingBox.Height = 80;
+                    if (i >= 2 && frames[i-2] != null && frames[i - 2].Balls.Count > 0)
+                    {
+                        dto.Ball lastBall = frames[i - 2].Balls[0];
+                        ball.Position = new dto.Point();
+                        ball.Position.X = lastBall.Position.X;
+                        ball.Position.Y = lastBall.Position.Y;
+                        ball.BoundingBox = new dto.Box();
+                        ball.BoundingBox.Width = lastBall.BoundingBox.Width;
+                        ball.BoundingBox.Height = lastBall.BoundingBox.Height;
+                    } else
+                    {
+                        ball.Position = new dto.Point();
+                        ball.Position.X = 1920 / 2;
+                        ball.Position.Y = 1080 / 2;
+                        ball.BoundingBox = new dto.Box();
+                        ball.BoundingBox.Width = 80;
+                        ball.BoundingBox.Height = 80;
+                    }
 
                     e.SuppressKeyPress = true;
                     clear();
