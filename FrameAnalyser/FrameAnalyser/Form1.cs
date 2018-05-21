@@ -242,5 +242,26 @@ namespace FrameAnalyser
                 File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames));
             }
         }
+
+        private void Form1_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop)) e.Effect = DragDropEffects.Copy;
+        }
+
+        private void Form1_DragDrop(object sender, DragEventArgs e)
+        {
+            string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+
+            FileInfo fi = new FileInfo(files[0]);
+            VideoPath = fi.DirectoryName;
+            AnnotationPath = VideoPath.Replace("Videos", "Annotations");
+            FileName = fi.Name;
+
+            vFReader.Open(VideoPath + FileName);
+            frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + FileName.Split('.').First()));
+            i = 1;
+            clear();
+            update();
+        }
     }
 }
