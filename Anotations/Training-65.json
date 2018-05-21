@@ -1,0 +1,175 @@
+[
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 250, "y": 116},
+				"boundingBox": {"width": 101, "height": 83}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 382, "y": 86},
+				"boundingBox": {"width": 97, "height": 91}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 524, "y": 82},
+				"boundingBox": {"width": 89, "height": 88}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 662, "y": 90},
+				"boundingBox": {"width": 84, "height": 89}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 804, "y": 119},
+				"boundingBox": {"width": 90, "height": 90}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1092, "y": 222},
+				"boundingBox": {"width": 94, "height": 93}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1234, "y": 302},
+				"boundingBox": {"width": 92, "height": 95}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1378, "y": 396},
+				"boundingBox": {"width": 91, "height": 95}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1522, "y": 511},
+				"boundingBox": {"width": 97, "height": 96}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1663, "y": 640},
+				"boundingBox": {"width": 96, "height": 94}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1802, "y": 787},
+				"boundingBox": {"width": 101, "height": 96}
+			}
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 65,
+		"balls":
+		[
+
+		]
+	}]
