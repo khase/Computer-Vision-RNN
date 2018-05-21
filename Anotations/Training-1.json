@@ -1,6 +1,6 @@
 [
   {
-    "FrameNumber": 1,
+    "FrameNumber": 0,
     "Balls": []
   },
   {
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 2,
     "Balls": [
       {
         "Tag": 0,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 3,
     "Balls": [
       {
         "Tag": 0,
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 4,
     "Balls": [
       {
         "Tag": 0,
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 5,
     "Balls": [
       {
         "Tag": 0,
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 6,
     "Balls": [
       {
         "Tag": 0,
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 7,
     "Balls": [
       {
         "Tag": 0,
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 8,
     "Balls": [
       {
         "Tag": 0,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 9,
     "Balls": [
       {
         "Tag": 0,
@@ -148,7 +148,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 10,
     "Balls": [
       {
         "Tag": 0,
@@ -164,35 +164,35 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 11,
     "Balls": []
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 12,
     "Balls": []
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 13,
     "Balls": []
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 14,
     "Balls": []
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 15,
     "Balls": []
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 16,
     "Balls": []
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 17,
     "Balls": []
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 18,
     "Balls": [
       {
         "Tag": 0,
@@ -208,7 +208,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 19,
     "Balls": [
       {
         "Tag": 0,
@@ -224,7 +224,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 20,
     "Balls": [
       {
         "Tag": 0,
@@ -240,7 +240,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 21,
     "Balls": [
       {
         "Tag": 0,
@@ -256,7 +256,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 22,
     "Balls": [
       {
         "Tag": 0,
@@ -272,7 +272,7 @@
     ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 23,
     "Balls": [
       {
         "Tag": 0,
@@ -288,11 +288,23 @@
     ]
   },
   {
-    "FrameNumber": 1,
-    "Balls": []
+    "FrameNumber": 24,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 984,
+          "Y": 357
+        },
+        "BoundingBox": {
+          "Width": 61,
+          "Height": 60
+        }
+      }
+    ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 25,
     "Balls": [
       {
         "Tag": 0,
@@ -308,19 +320,55 @@
     ]
   },
   {
-    "FrameNumber": 1,
-    "Balls": []
+    "FrameNumber": 26,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 965,
+          "Y": 535
+        },
+        "BoundingBox": {
+          "Width": 59,
+          "Height": 58
+        }
+      }
+    ]
   },
   {
-    "FrameNumber": 1,
-    "Balls": []
+    "FrameNumber": 27,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 957,
+          "Y": 641
+        },
+        "BoundingBox": {
+          "Width": 58,
+          "Height": 59
+        }
+      }
+    ]
   },
   {
-    "FrameNumber": 1,
-    "Balls": []
+    "FrameNumber": 28,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 948,
+          "Y": 759
+        },
+        "BoundingBox": {
+          "Width": 58,
+          "Height": 59
+        }
+      }
+    ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 29,
     "Balls": [
       {
         "Tag": 0,
@@ -336,11 +384,23 @@
     ]
   },
   {
-    "FrameNumber": 1,
-    "Balls": []
+    "FrameNumber": 30,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 942,
+          "Y": 890
+        },
+        "BoundingBox": {
+          "Width": 57,
+          "Height": 58
+        }
+      }
+    ]
   },
   {
-    "FrameNumber": 1,
+    "FrameNumber": 31,
     "Balls": []
   }
 ]
