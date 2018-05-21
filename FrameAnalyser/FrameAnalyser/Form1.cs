@@ -63,12 +63,18 @@ namespace FrameAnalyser
 
         private void clear()
         {
+            if (i > vFReader.FrameCount)
+            {
+                i = (int)vFReader.FrameCount;
+            }
             Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i);
             pictureBox1.Image = bmpBaseOriginal;
         }
 
         private Bitmap overlay(Bitmap bmp, dto.Frame frame)
         {
+            if (bmp == null || frame == null)
+                return bmp;
             Pen blackPen = new Pen(Color.Green, 3);
             using (var graphics = Graphics.FromImage(bmp))
             {
