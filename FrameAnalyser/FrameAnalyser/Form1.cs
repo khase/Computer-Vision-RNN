@@ -19,8 +19,8 @@ namespace FrameAnalyser
             InitializeComponent();
         }
 
-        string VideoPath = @"D:\git\Computer-Vision-RNN\Videos\";
-        string AnnotationPath = @"D:\git\Computer-Vision-RNN\Anotations\";
+        string VideoPath = @"F:\Computer Vision\Computer-Vision-RNN\Videos\";
+        string AnnotationPath = @"F:\Computer Vision\Computer-Vision-RNN\Anotations\";
         string FileName = "Training-5.mp4";
 
         List<dto.Frame> frames = new List<dto.Frame>();
@@ -30,7 +30,8 @@ namespace FrameAnalyser
         private void Form1_Load(object sender, EventArgs e)
         {
             vFReader.Open(VideoPath + FileName);
-            frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + "video5_images.txt"));
+            //frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + "video5_images.txt"));
+            frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(@"F:\Computer Vision\Computer-Vision-RNN\FrameAnalyser\FrameAnalyser\bin\Debug\Images-Training-5.mp4\annotations.txt"));
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -217,6 +218,32 @@ namespace FrameAnalyser
         private void SaveAnnotations_Click(object sender, EventArgs e)
         {
             File.WriteAllText(AnnotationPath + FileName + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames));
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            foreach (string FileName in Directory.GetFiles(VideoPath))
+            {
+                vFReader.Open(FileName);
+
+                string Name = FileName.Split('\\').Last();
+                Name = Name.Split('.').First();
+
+                if (!Directory.Exists(VideoPath + Name))
+                    Directory.CreateDirectory(VideoPath + Name);
+                else
+                {
+                    continue;
+                }
+
+                for (int i = 0; i < vFReader.FrameCount; i++)
+                {
+                    using (Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i))
+                    {
+                        bmpBaseOriginal.Save(VideoPath + Name + "/Image" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
+                    }
+                }
+            }
         }
     }
 }
