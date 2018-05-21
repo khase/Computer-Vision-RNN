@@ -253,7 +253,7 @@ namespace FrameAnalyser
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
 
             FileInfo fi = new FileInfo(files[0]);
-            VideoPath = fi.DirectoryName;
+            VideoPath = fi.DirectoryName + "\\";
             AnnotationPath = VideoPath.Replace("Videos", "Annotations");
             FileName = fi.Name;
 
