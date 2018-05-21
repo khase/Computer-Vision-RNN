@@ -96,10 +96,9 @@ for filename in subdirs:
 
         # Run detection
         results = model.detect([image], verbose=0)
-        testArray = [int(s) for s in re.findall(r'\d+', frameName.split('\\')[1])]
+        testArray = [int(s) for s in re.findall(r'\d+', frameName.split('\\')[2])]
         r = results[0]
         #testDir = frameName + 'A.jpeg'
-
         indexesToDelete=[]
         o = 0
         for imageclass in r['class_ids']:
