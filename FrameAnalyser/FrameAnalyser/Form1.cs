@@ -216,7 +216,7 @@ namespace FrameAnalyser
 
         private void SaveAnnotations_Click(object sender, EventArgs e)
         {
-
+            File.WriteAllText(AnnotationPath + FileName + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames));
         }
     }
 }
