@@ -251,6 +251,10 @@ namespace FrameAnalyser
         {
             if (vFReader != null && vFReader.IsOpen)
             {
+                for (int j = 0; j < frames.Count; j++)
+                {
+                    frames[j].FrameNumber = j;
+                }
                 File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames, Newtonsoft.Json.Formatting.Indented));
             }
         }
