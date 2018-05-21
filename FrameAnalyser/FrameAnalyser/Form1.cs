@@ -29,23 +29,28 @@ namespace FrameAnalyser
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            vFReader.Open(VideoPath + FileName);
-            //frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + "video5_images.txt"));
-            frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(@"F:\Computer Vision\Computer-Vision-RNN\FrameAnalyser\FrameAnalyser\bin\Debug\Images-Training-5.mp4\annotations.txt"));
+            //vFReader.Open(VideoPath + FileName);
+            //frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + FileName.Split('.').First()));
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            i--;
-            clear();
-            update();
+            if (vFReader != null && vFReader.IsOpen)
+            {
+                i--;
+                clear();
+                update();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            i++;
-            clear();
-            update();
+            if (vFReader != null && vFReader.IsOpen)
+            {
+                i++;
+                clear();
+                update();
+            }
         }
 
         private void update()
@@ -89,14 +94,17 @@ namespace FrameAnalyser
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            vFReader.Close();
+            if (vFReader != null && vFReader.IsOpen)
+            {
+                vFReader.Close();
+            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             dto.Frame frame = null;
             dto.Ball ball = null;
-            if (i >= 1 && frames.Count > i)
+            if (i >= 1 && frames != null && frames.Count > i)
             {
                 frame = frames[i - 1];
                 if (frame.Balls.Count > 0)
@@ -187,35 +195,41 @@ namespace FrameAnalyser
 
         private void ExportImages_Click(object sender, EventArgs e)
         {
-            if (!Directory.Exists("Images-" + FileName))
-                Directory.CreateDirectory("Images-" + FileName);
-
-            for (int i = 0; i < vFReader.FrameCount; i++)
+            if (vFReader != null && vFReader.IsOpen)
             {
-                using (Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i))
+                if (!Directory.Exists("Images-" + FileName))
+                    Directory.CreateDirectory("Images-" + FileName);
+
+                for (int i = 0; i < vFReader.FrameCount; i++)
                 {
-                    bmpBaseOriginal.Save("Images-" + FileName + "/Image" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
+                    using (Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i))
+                    {
+                        bmpBaseOriginal.Save("Images-" + FileName + "/Image" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
+                    }
                 }
             }
         }
 
         private void ExportAnnotatedImages_Click(object sender, EventArgs e)
         {
-            if (!Directory.Exists("AnnotatedImages-" + FileName))
-                Directory.CreateDirectory("AnnotatedImages-" + FileName);
-
-            for (int i = 0; i < vFReader.FrameCount; i++)
+            if (vFReader != null && vFReader.IsOpen)
             {
-                using (Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i))
+                if (!Directory.Exists("AnnotatedImages-" + FileName))
+                    Directory.CreateDirectory("AnnotatedImages-" + FileName);
+
+                for (int i = 0; i < vFReader.FrameCount; i++)
                 {
-                    if (i >= 1 && frames.Count > i)
+                    using (Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i))
                     {
-                        dto.Frame frame = frames[i];
-                        overlay(bmpBaseOriginal, frame).Save("AnnotatedImages-" + FileName + "/AnnotatedImage" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
-                    }
-                    else if (frames.Count <= i)
-                    {
-                        frames.Add(new dto.Frame());
+                        if (i >= 1 && frames.Count > i)
+                        {
+                            dto.Frame frame = frames[i];
+                            overlay(bmpBaseOriginal, frame).Save("AnnotatedImages-" + FileName + "/AnnotatedImage" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
+                        }
+                        else if (frames.Count <= i)
+                        {
+                            frames.Add(new dto.Frame());
+                        }
                     }
                 }
             }
@@ -223,32 +237,9 @@ namespace FrameAnalyser
 
         private void SaveAnnotations_Click(object sender, EventArgs e)
         {
-            File.WriteAllText(AnnotationPath + FileName + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames));
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            foreach (string FileName in Directory.GetFiles(VideoPath))
+            if (vFReader != null && vFReader.IsOpen)
             {
-                vFReader.Open(FileName);
-
-                string Name = FileName.Split('\\').Last();
-                Name = Name.Split('.').First();
-
-                if (!Directory.Exists(VideoPath + Name))
-                    Directory.CreateDirectory(VideoPath + Name);
-                else
-                {
-                    continue;
-                }
-
-                for (int i = 0; i < vFReader.FrameCount; i++)
-                {
-                    using (Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i))
-                    {
-                        bmpBaseOriginal.Save(VideoPath + Name + "/Image" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
-                    }
-                }
+                File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames));
             }
         }
     }
