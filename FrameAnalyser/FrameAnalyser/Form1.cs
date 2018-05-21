@@ -239,7 +239,7 @@ namespace FrameAnalyser
         {
             if (vFReader != null && vFReader.IsOpen)
             {
-                File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames));
+                File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames, Newtonsoft.Json.Formatting.Indented));
             }
         }
 
