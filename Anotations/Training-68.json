@@ -1,0 +1,332 @@
+[
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1872, "y": 510},
+				"boundingBox": {"width": 87, "height": 80}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1782, "y": 396},
+				"boundingBox": {"width": 91, "height": 81}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1686, "y": 294},
+				"boundingBox": {"width": 94, "height": 83}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1590, "y": 208},
+				"boundingBox": {"width": 87, "height": 82}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1492, "y": 134},
+				"boundingBox": {"width": 93, "height": 89}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 791, "y": 64},
+				"boundingBox": {"width": 88, "height": 92}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 694, "y": 118},
+				"boundingBox": {"width": 95, "height": 95}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 160, "y": 960},
+				"boundingBox": {"width": 85, "height": 74}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 272, "y": 817},
+				"boundingBox": {"width": 85, "height": 72}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 594, "y": 192},
+				"boundingBox": {"width": 94, "height": 97}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 385, "y": 689},
+				"boundingBox": {"width": 86, "height": 74}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 496, "y": 286},
+				"boundingBox": {"width": 95, "height": 93}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 498, "y": 568},
+				"boundingBox": {"width": 86, "height": 77}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 396, "y": 390},
+				"boundingBox": {"width": 83, "height": 96}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 298, "y": 516},
+				"boundingBox": {"width": 89, "height": 85}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 618, "y": 466},
+				"boundingBox": {"width": 89, "height": 81}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 204, "y": 659},
+				"boundingBox": {"width": 97, "height": 92}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 740, "y": 372},
+				"boundingBox": {"width": 92, "height": 85}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 864, "y": 286},
+				"boundingBox": {"width": 87, "height": 86}
+			},
+			{
+				"tag": 1,
+				"position": {"x": 104, "y": 826},
+				"boundingBox": {"width": 101, "height": 111}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 995, "y": 219},
+				"boundingBox": {"width": 94, "height": 92}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1128, "y": 160},
+				"boundingBox": {"width": 90, "height": 91}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1268, "y": 120},
+				"boundingBox": {"width": 95, "height": 87}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1553, "y": 90},
+				"boundingBox": {"width": 100, "height": 95}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1704, "y": 96},
+				"boundingBox": {"width": 109, "height": 95}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1854, "y": 124},
+				"boundingBox": {"width": 108, "height": 101}
+			}
+		]
+	},
+	{
+		"frameNumber": 68,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1854, "y": 124},
+				"boundingBox": {"width": 108, "height": 101}
+			}
+		]
+	}]

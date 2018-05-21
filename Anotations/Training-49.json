@@ -1,0 +1,140 @@
+[
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 314, "y": 1052},
+				"boundingBox": {"width": 97, "height": 57}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 459, "y": 968},
+				"boundingBox": {"width": 88, "height": 83}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 610, "y": 890},
+				"boundingBox": {"width": 90, "height": 89}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 772, "y": 824},
+				"boundingBox": {"width": 93, "height": 85}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 934, "y": 769},
+				"boundingBox": {"width": 88, "height": 92}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1106, "y": 724},
+				"boundingBox": {"width": 100, "height": 95}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1285, "y": 700},
+				"boundingBox": {"width": 98, "height": 95}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1468, "y": 687},
+				"boundingBox": {"width": 99, "height": 102}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1668, "y": 698},
+				"boundingBox": {"width": 109, "height": 103}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1862, "y": 726},
+				"boundingBox": {"width": 106, "height": 103}
+			}
+		]
+	},
+	{
+		"frameNumber": 49,
+		"balls":
+		[
+
+			{
+				"tag": 0,
+				"position": {"x": 1862, "y": 726},
+				"boundingBox": {"width": 106, "height": 103}
+			}
+		]
+	}]
