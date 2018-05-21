@@ -254,11 +254,11 @@ namespace FrameAnalyser
 
             FileInfo fi = new FileInfo(files[0]);
             VideoPath = fi.DirectoryName + "\\";
-            AnnotationPath = VideoPath.Replace("Videos", "Annotations");
+            AnnotationPath = VideoPath.Replace("Videos", "Anotations");
             FileName = fi.Name;
 
             vFReader.Open(VideoPath + FileName);
-            frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + FileName.Split('.').First()));
+            frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + FileName.Split('.').First() + ".json"));
             i = 1;
             clear();
             update();
