@@ -88,12 +88,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 187,
-          "Y": 805
+          "X": 1415,
+          "Y": 33
         },
         "BoundingBox": {
-          "Width": 100,
-          "Height": 80
+          "Width": 111,
+          "Height": 97
         }
       },
       {
@@ -120,7 +120,7 @@
         },
         "BoundingBox": {
           "Width": 103,
-          "Height": 86
+          "Height": 92
         }
       }
     ]
@@ -136,7 +136,7 @@
         },
         "BoundingBox": {
           "Width": 100,
-          "Height": 89
+          "Height": 93
         }
       }
     ]
@@ -152,7 +152,7 @@
         },
         "BoundingBox": {
           "Width": 100,
-          "Height": 93
+          "Height": 98
         }
       }
     ]
@@ -163,12 +163,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 538,
+          "X": 536,
           "Y": 356
         },
         "BoundingBox": {
           "Width": 105,
-          "Height": 97
+          "Height": 99
         }
       }
     ]
@@ -179,12 +179,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 630,
+          "X": 629,
           "Y": 281
         },
         "BoundingBox": {
           "Width": 111,
-          "Height": 98
+          "Height": 101
         }
       }
     ]
@@ -200,7 +200,7 @@
         },
         "BoundingBox": {
           "Width": 109,
-          "Height": 98
+          "Height": 104
         }
       }
     ]
@@ -216,7 +216,7 @@
         },
         "BoundingBox": {
           "Width": 106,
-          "Height": 104
+          "Height": 108
         }
       }
     ]
@@ -227,12 +227,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 930,
-          "Y": 149
+          "X": 927,
+          "Y": 147
         },
         "BoundingBox": {
           "Width": 110,
-          "Height": 102
+          "Height": 110
         }
       }
     ]
@@ -243,7 +243,7 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1035,
+          "X": 1031,
           "Y": 132
         },
         "BoundingBox": {
@@ -259,12 +259,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1144,
-          "Y": 144
+          "X": 1140,
+          "Y": 143
         },
         "BoundingBox": {
           "Width": 117,
-          "Height": 107
+          "Height": 110
         }
       }
     ]
@@ -275,12 +275,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 122,
-          "Y": 140
+          "X": 1252,
+          "Y": 167
         },
         "BoundingBox": {
-          "Width": 123,
-          "Height": 118
+          "Width": 117,
+          "Height": 111
         }
       },
       {
@@ -302,12 +302,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1371,
-          "Y": 220
+          "X": 1369,
+          "Y": 219
         },
         "BoundingBox": {
-          "Width": 112,
-          "Height": 115
+          "Width": 115,
+          "Height": 118
         }
       }
     ]
@@ -318,12 +318,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1492,
+          "X": 1486,
           "Y": 289
         },
         "BoundingBox": {
-          "Width": 116,
-          "Height": 114
+          "Width": 120,
+          "Height": 119
         }
       }
     ]
@@ -334,8 +334,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1612,
-          "Y": 388
+          "X": 1606,
+          "Y": 384
         },
         "BoundingBox": {
           "Width": 127,
@@ -350,8 +350,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1734,
-          "Y": 506
+          "X": 1730,
+          "Y": 507
         },
         "BoundingBox": {
           "Width": 123,
@@ -366,12 +366,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1854,
-          "Y": 652
+          "X": 1853,
+          "Y": 651
         },
         "BoundingBox": {
-          "Width": 118,
-          "Height": 118
+          "Width": 121,
+          "Height": 129
         }
       }
     ]

@@ -13,12 +13,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 122,
+          "X": 117,
           "Y": 1000
         },
         "BoundingBox": {
           "Width": 103,
-          "Height": 83
+          "Height": 90
         }
       }
     ]
@@ -29,12 +29,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 216,
-          "Y": 876
+          "X": 215,
+          "Y": 877
         },
         "BoundingBox": {
           "Width": 97,
-          "Height": 85
+          "Height": 93
         }
       }
     ]
@@ -46,11 +46,11 @@
         "Tag": 0,
         "Position": {
           "X": 314,
-          "Y": 766
+          "Y": 768
         },
         "BoundingBox": {
           "Width": 99,
-          "Height": 86
+          "Height": 93
         }
       },
       {
@@ -99,12 +99,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 520,
+          "X": 518,
           "Y": 592
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 89
+          "Width": 101,
+          "Height": 95
         }
       }
     ]
@@ -115,12 +115,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 622,
+          "X": 624,
           "Y": 526
         },
         "BoundingBox": {
-          "Width": 92,
-          "Height": 91
+          "Width": 98,
+          "Height": 97
         }
       }
     ]
@@ -132,11 +132,11 @@
         "Tag": 0,
         "Position": {
           "X": 732,
-          "Y": 478
+          "Y": 479
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 97
+          "Width": 101,
+          "Height": 101
         }
       }
     ]
@@ -147,12 +147,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 846,
-          "Y": 449
+          "X": 845,
+          "Y": 447
         },
         "BoundingBox": {
-          "Width": 109,
-          "Height": 100
+          "Width": 114,
+          "Height": 105
         }
       }
     ]
@@ -163,12 +163,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 958,
-          "Y": 428
+          "X": 956,
+          "Y": 431
         },
         "BoundingBox": {
-          "Width": 101,
-          "Height": 92
+          "Width": 109,
+          "Height": 99
         }
       }
     ]
@@ -179,12 +179,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1072,
-          "Y": 432
+          "X": 1070,
+          "Y": 435
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 101
+          "Width": 106,
+          "Height": 110
         }
       }
     ]
@@ -195,12 +195,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1190,
-          "Y": 456
+          "X": 1187,
+          "Y": 455
         },
         "BoundingBox": {
-          "Width": 99,
-          "Height": 103
+          "Width": 107,
+          "Height": 112
         }
       }
     ]
@@ -211,12 +211,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1310,
-          "Y": 494
+          "X": 1304,
+          "Y": 492
         },
         "BoundingBox": {
-          "Width": 103,
-          "Height": 103
+          "Width": 108,
+          "Height": 109
         }
       }
     ]
@@ -227,12 +227,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1427,
+          "X": 1424,
           "Y": 551
         },
         "BoundingBox": {
-          "Width": 106,
-          "Height": 104
+          "Width": 114,
+          "Height": 112
         }
       }
     ]
@@ -243,12 +243,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1548,
+          "X": 1546,
           "Y": 632
         },
         "BoundingBox": {
-          "Width": 103,
-          "Height": 110
+          "Width": 109,
+          "Height": 116
         }
       }
     ]
@@ -259,12 +259,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1670,
+          "X": 1669,
           "Y": 734
         },
         "BoundingBox": {
-          "Width": 102,
-          "Height": 111
+          "Width": 109,
+          "Height": 119
         }
       }
     ]
@@ -275,12 +275,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1796,
-          "Y": 856
+          "X": 1793,
+          "Y": 858
         },
         "BoundingBox": {
-          "Width": 109,
-          "Height": 107
+          "Width": 115,
+          "Height": 114
         }
       }
     ]
@@ -291,12 +291,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 960,
-          "Y": 540
+          "X": 1914,
+          "Y": 1006
         },
         "BoundingBox": {
-          "Width": 80,
-          "Height": 80
+          "Width": 110,
+          "Height": 110
         }
       }
     ]
@@ -304,9 +304,5 @@
   {
     "FrameNumber": 19,
     "Balls": []
-  },
-  {
-    "FrameNumber": 20,
-    "Balls": null
   }
 ]
