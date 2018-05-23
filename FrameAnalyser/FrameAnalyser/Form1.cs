@@ -355,7 +355,7 @@ namespace FrameAnalyser
                 //{
                 //    frames[j].FrameNumber = j;
                 //}
-                File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames, Newtonsoft.Json.Formatting.Indented));
+                File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames.Where(f => f.Balls != null), Newtonsoft.Json.Formatting.Indented));
             }
         }
 
