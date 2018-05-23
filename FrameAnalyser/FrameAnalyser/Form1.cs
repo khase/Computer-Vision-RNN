@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,7 @@ namespace FrameAnalyser
         List<dto.Frame> frames = new List<dto.Frame>();
         VideoFileReader vFReader = new VideoFileReader();
         int i = 0;
+        Bitmap origFrame = null;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -44,21 +46,23 @@ namespace FrameAnalyser
             //}
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void prev_Click(object sender, EventArgs e)
         {
             if (vFReader != null && vFReader.IsOpen)
             {
                 i--;
+                loadFrame();
                 clear();
                 update();
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Next_Click(object sender, EventArgs e)
         {
             if (vFReader != null && vFReader.IsOpen)
             {
                 i++;
+                loadFrame();
                 clear();
                 update();
             }
@@ -79,12 +83,21 @@ namespace FrameAnalyser
 
         private void clear()
         {
+            if (origFrame == null)
+                return;
+            pictureBox1.Image = (Bitmap)origFrame.Clone();
+        }
+
+        private void loadFrame()
+        {
             if (i > vFReader.FrameCount)
             {
                 i = (int)vFReader.FrameCount;
+            } else if (i < 0)
+            {
+                i = 0;
             }
-            Bitmap bmpBaseOriginal = vFReader.ReadVideoFrame(i);
-            pictureBox1.Image = bmpBaseOriginal;
+            origFrame = vFReader.ReadVideoFrame(i);
         }
 
         private Bitmap overlay(Bitmap bmp, dto.Frame frame)
@@ -101,6 +114,51 @@ namespace FrameAnalyser
                 }
             }
             return bmp;
+        }
+
+        private unsafe Rectangle FindBall(Bitmap source)
+        {
+            int bitsPerPixel = 24;
+            BitmapData bData = source.LockBits(new Rectangle(0, 0, source.Width, source.Height), ImageLockMode.ReadOnly, source.PixelFormat);
+
+            /*This time we convert the IntPtr to a ptr*/
+            byte* scan0 = (byte*)bData.Scan0.ToPointer();
+
+            List<Point> ballPixels = new List<Point>();
+
+            for (int i = 0; i < bData.Height; ++i)
+            {
+                for (int j = 0; j < bData.Width; ++j)
+                {
+                    byte* data = scan0 + i * bData.Stride + j * bitsPerPixel / 8;
+                    byte* r = data;
+                    byte* g = data + 1;
+                    byte* b = data + 2;
+                    Color col = Color.FromArgb(*r, *g, *b);
+                    float hue = col.GetHue();
+                    float saturation = col.GetSaturation();
+                    float value = col.GetBrightness();
+
+                    if (saturation > 0.2)
+                    {
+                        ballPixels.Add(new Point(j, i));
+                    }
+                    else
+                    {
+                        //*r = 0;
+                        //*g = 0;
+                        //*b = 0;
+                    }
+                }
+            }
+            source.UnlockBits(bData);
+
+            int minX = ballPixels.Select(p => p.X).OrderBy(x => x).Skip(40).Min();
+            int maxX = ballPixels.Select(p => p.X).OrderByDescending(x => x).Skip(40).Max();
+            int minY = ballPixels.Select(p => p.Y).OrderBy(y => y).Skip(40).Min();
+            int maxY = ballPixels.Select(p => p.Y).OrderByDescending(y => y).Skip(40).Max();
+
+            return new Rectangle(new Point(minX, minY), new Size(maxX - minX, maxY - minY));
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -129,7 +187,17 @@ namespace FrameAnalyser
                 {
                     frame.Balls.Add(new dto.Ball());
                     ball = frame.Balls[0];
-                    if (i >= 2 && frames[i-2] != null && frames[i - 2].Balls.Count > 0)
+                    Rectangle rect = FindBall(origFrame);
+                    if (rect != null)
+                    {
+                        ball.Position = new dto.Point();
+                        ball.Position.X = rect.X + (rect.Width / 2);
+                        ball.Position.Y = rect.Y + (rect.Height / 2);
+                        ball.BoundingBox = new dto.Box();
+                        ball.BoundingBox.Width = rect.Width;
+                        ball.BoundingBox.Height = rect.Height;
+                    }
+                    else if (i >= 2 && frames[i - 2] != null && frames[i - 2].Balls.Count > 0)
                     {
                         dto.Ball lastBall = frames[i - 2].Balls[0];
                         ball.Position = new dto.Point();
@@ -138,7 +206,8 @@ namespace FrameAnalyser
                         ball.BoundingBox = new dto.Box();
                         ball.BoundingBox.Width = lastBall.BoundingBox.Width;
                         ball.BoundingBox.Height = lastBall.BoundingBox.Height;
-                    } else
+                    }
+                    else
                     {
                         ball.Position = new dto.Point();
                         ball.Position.X = 1920 / 2;
@@ -154,6 +223,16 @@ namespace FrameAnalyser
                 }
                 return;
             }
+            if (e.KeyCode == Keys.Delete)
+            {
+                if (frame.Balls != null && frame.Balls.Count > 0)
+                {
+                    frame.Balls.RemoveAt(0);
+                    e.SuppressKeyPress = true;
+                    clear();
+                    update();
+                }
+            }
             int step = 1;
             if (e.Control)
             {
@@ -163,8 +242,9 @@ namespace FrameAnalyser
             {
                 if (e.Alt)
                 {
-                    ball.BoundingBox.Width -= step;
-                } else
+                    ball.BoundingBox.Width += step;
+                }
+                else
                 {
                     ball.Position.X += step;
                 }
@@ -176,7 +256,7 @@ namespace FrameAnalyser
             {
                 if (e.Alt)
                 {
-                    ball.BoundingBox.Width += step;
+                    ball.BoundingBox.Width -= step;
                 }
                 else
                 {
@@ -213,6 +293,14 @@ namespace FrameAnalyser
                 e.SuppressKeyPress = true;
                 clear();
                 update();
+            }
+            else if (e.KeyCode == Keys.A)
+            {
+                prev_Click(null, null);
+            }
+            else if (e.KeyCode == Keys.D)
+            {
+                Next_Click(null, null);
             }
         }
 
@@ -286,7 +374,23 @@ namespace FrameAnalyser
             FileName = fi.Name;
 
             vFReader.Open(VideoPath + FileName);
-            frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + FileName.Split('.').First() + ".json"));
+            FileInfo tInfo = new FileInfo(AnnotationPath + FileName.Split('.').First() + ".json");
+            FileInfo pInfo = new FileInfo(AnnotationPath + FileName.Split('.').First().Replace("Training", "Prediction") + ".json");
+            if (pInfo.Exists)
+            {
+                if (MessageBox.Show("Prediction-File found, wan't to load it?", "Prediction", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(pInfo.FullName));
+                }
+                else if (tInfo.Exists)
+                {
+                    frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(tInfo.FullName));
+                }
+            }
+            else if (tInfo.Exists)
+            {
+                frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(tInfo.FullName));
+            }
             i = 1;
             clear();
             update();
