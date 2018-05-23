@@ -49,6 +49,6 @@ for i in range(BatchSize - 1, len(allFrames)):
 print("Valid Batches: " + str(len(Batches)))
 print("Writing Batches to: " + "./Batches.json")
 with open('Batches.json', 'w') as outfile:
-    json.dump(Batches, outfile)
+    json.dump(Batches, outfile, sort_keys=True, indent=2)
 
 
