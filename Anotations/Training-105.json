@@ -37,7 +37,19 @@
   },
   {
     "FrameNumber": 3,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 664,
+          "Y": 223
+        },
+        "BoundingBox": {
+          "Width": 97,
+          "Height": 93
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 4,

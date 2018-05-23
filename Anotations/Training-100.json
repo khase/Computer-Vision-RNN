@@ -309,67 +309,19 @@
   },
   {
     "FrameNumber": 20,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 216,
-          "Y": 877
-        },
-        "BoundingBox": {
-          "Width": 91,
-          "Height": 90
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 21,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 249,
-          "Y": 916
-        },
-        "BoundingBox": {
-          "Width": 86,
-          "Height": 89
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 22,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 278,
-          "Y": 972
-        },
-        "BoundingBox": {
-          "Width": 85,
-          "Height": 83
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 23,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 310,
-          "Y": 1041
-        },
-        "BoundingBox": {
-          "Width": 89,
-          "Height": 74
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 24,
