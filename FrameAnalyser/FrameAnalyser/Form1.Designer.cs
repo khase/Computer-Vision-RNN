@@ -59,7 +59,7 @@
             this.button1.TabStop = false;
             this.button1.Text = "<<";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.prev_Click);
             // 
             // button2
             // 
@@ -71,7 +71,7 @@
             this.button2.TabStop = false;
             this.button2.Text = ">>";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Next_Click);
             // 
             // button3
             // 

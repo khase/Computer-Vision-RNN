@@ -389,12 +389,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 942,
-          "Y": 890
+          "X": 934,
+          "Y": 1033
         },
         "BoundingBox": {
-          "Width": 57,
-          "Height": 58
+          "Width": 59,
+          "Height": 65
         }
       }
     ]
