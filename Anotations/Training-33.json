@@ -5,7 +5,19 @@
   },
   {
     "FrameNumber": 1,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 410,
+          "Y": -7
+        },
+        "BoundingBox": {
+          "Width": 82,
+          "Height": 67
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 2,
@@ -34,14 +46,26 @@
         },
         "BoundingBox": {
           "Width": 92,
-          "Height": 77
+          "Height": 81
         }
       }
     ]
   },
   {
     "FrameNumber": 4,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 6,
+          "Y": 366
+        },
+        "BoundingBox": {
+          "Width": 15,
+          "Height": 60
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 5,
