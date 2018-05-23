@@ -39,3 +39,5 @@ mask_rcnn_coco.h5
 *.png
 
 RNN/AugmentedBatches\.json
+RNN/Own.hdf5
+RNN/Test
