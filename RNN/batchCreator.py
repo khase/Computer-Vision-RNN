@@ -55,5 +55,3 @@ print("Valid Batches: " + str(len(Batches)))
 print("Writing Batches to: " + "./Batches.json")
 with open('Batches.json', 'w') as outfile:
     json.dump(Batches, outfile, sort_keys=True, indent=2)
-
-
