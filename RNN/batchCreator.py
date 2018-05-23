@@ -37,7 +37,7 @@ print("Invalid Framecount: " + str(invalidFrameCount))
 Batches = []
 for i in range(BatchSize - 1, len(allFrames)):
     batch = []
-    for o in range(0, BatchSize):
+    for o in reversed(range(0, BatchSize)):
         frame = allFrames[i - o]
         balls = frame["Balls"]
         if balls != None and len(balls) > 0:
@@ -47,5 +47,8 @@ for i in range(BatchSize - 1, len(allFrames)):
 
 
 print("Valid Batches: " + str(len(Batches)))
+print("Writing Batches to: " + "./Batches.json")
+with open('Batches.json', 'w') as outfile:
+    json.dump(Batches, outfile)
 
 
