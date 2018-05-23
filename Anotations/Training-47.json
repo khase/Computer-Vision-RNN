@@ -18,11 +18,11 @@
         "Tag": 0,
         "Position": {
           "X": 215,
-          "Y": 1046
+          "Y": 1058
         },
         "BoundingBox": {
           "Width": 98,
-          "Height": 68
+          "Height": 83
         }
       }
     ]
@@ -33,8 +33,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 371,
-          "Y": 924
+          "X": 369,
+          "Y": 926
         },
         "BoundingBox": {
           "Width": 94,
@@ -65,7 +65,7 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 694,
+          "X": 696,
           "Y": 708
         },
         "BoundingBox": {
@@ -114,10 +114,10 @@
         "Tag": 0,
         "Position": {
           "X": 1222,
-          "Y": 473
+          "Y": 475
         },
         "BoundingBox": {
-          "Width": 93,
+          "Width": 95,
           "Height": 90
         }
       }
@@ -129,8 +129,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1408,
-          "Y": 422
+          "X": 1407,
+          "Y": 424
         },
         "BoundingBox": {
           "Width": 103,
@@ -145,8 +145,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1602,
-          "Y": 394
+          "X": 1601,
+          "Y": 391
         },
         "BoundingBox": {
           "Width": 100,
@@ -161,8 +161,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1800,
-          "Y": 374
+          "X": 1798,
+          "Y": 373
         },
         "BoundingBox": {
           "Width": 108,
@@ -173,35 +173,11 @@
   },
   {
     "FrameNumber": 13,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 228,
-          "Y": 74
-        },
-        "BoundingBox": {
-          "Width": 101,
-          "Height": 98
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 14,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 66,
-          "Y": 208
-        },
-        "BoundingBox": {
-          "Width": 104,
-          "Height": 95
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 15,

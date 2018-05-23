@@ -5,7 +5,19 @@
   },
   {
     "FrameNumber": 1,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 212,
+          "Y": 1051
+        },
+        "BoundingBox": {
+          "Width": 87,
+          "Height": 73
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 2,
@@ -14,11 +26,11 @@
         "Tag": 0,
         "Position": {
           "X": 352,
-          "Y": 906
+          "Y": 907
         },
         "BoundingBox": {
-          "Width": 87,
-          "Height": 73
+          "Width": 88,
+          "Height": 74
         }
       }
     ]
@@ -29,12 +41,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 494,
-          "Y": 768
+          "X": 495,
+          "Y": 770
         },
         "BoundingBox": {
-          "Width": 83,
-          "Height": 79
+          "Width": 84,
+          "Height": 80
         }
       }
     ]
@@ -46,11 +58,11 @@
         "Tag": 0,
         "Position": {
           "X": 640,
-          "Y": 642
+          "Y": 645
         },
         "BoundingBox": {
           "Width": 85,
-          "Height": 75
+          "Height": 77
         }
       }
     ]
@@ -62,18 +74,30 @@
         "Tag": 0,
         "Position": {
           "X": 792,
-          "Y": 530
+          "Y": 532
         },
         "BoundingBox": {
-          "Width": 84,
-          "Height": 77
+          "Width": 86,
+          "Height": 79
         }
       }
     ]
   },
   {
     "FrameNumber": 6,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 944,
+          "Y": 433
+        },
+        "BoundingBox": {
+          "Width": 90,
+          "Height": 80
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 7,
@@ -81,8 +105,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1102,
-          "Y": 350
+          "X": 1101,
+          "Y": 349
         },
         "BoundingBox": {
           "Width": 92,
@@ -97,8 +121,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1260,
-          "Y": 276
+          "X": 1259,
+          "Y": 274
         },
         "BoundingBox": {
           "Width": 95,
@@ -113,8 +137,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1422,
-          "Y": 212
+          "X": 1421,
+          "Y": 211
         },
         "BoundingBox": {
           "Width": 95,
@@ -179,87 +203,39 @@
   },
   {
     "FrameNumber": 12,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1933,
+          "Y": 119
+        },
+        "BoundingBox": {
+          "Width": 103,
+          "Height": 87
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 13,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 548,
-          "Y": 358
-        },
-        "BoundingBox": {
-          "Width": 80,
-          "Height": 79
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 14,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 426,
-          "Y": 482
-        },
-        "BoundingBox": {
-          "Width": 78,
-          "Height": 79
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 15,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 307,
-          "Y": 612
-        },
-        "BoundingBox": {
-          "Width": 84,
-          "Height": 79
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 16,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 194,
-          "Y": 762
-        },
-        "BoundingBox": {
-          "Width": 85,
-          "Height": 80
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 17,
-    "Balls": [
-      {
-        "Tag": 0,
-        "Position": {
-          "X": 97,
-          "Y": 923
-        },
-        "BoundingBox": {
-          "Width": 90,
-          "Height": 88
-        }
-      }
-    ]
+    "Balls": []
   },
   {
     "FrameNumber": 18,

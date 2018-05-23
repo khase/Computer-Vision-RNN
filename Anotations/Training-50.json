@@ -10,11 +10,11 @@
         "Tag": 0,
         "Position": {
           "X": 1079,
-          "Y": 31
+          "Y": 16
         },
         "BoundingBox": {
           "Width": 90,
-          "Height": 62
+          "Height": 77
         }
       }
     ]
@@ -25,7 +25,7 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 967,
+          "X": 965,
           "Y": 114
         },
         "BoundingBox": {
@@ -73,8 +73,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 618,
-          "Y": 508
+          "X": 617,
+          "Y": 511
         },
         "BoundingBox": {
           "Width": 87,
@@ -90,7 +90,7 @@
         "Tag": 0,
         "Position": {
           "X": 503,
-          "Y": 678
+          "Y": 679
         },
         "BoundingBox": {
           "Width": 86,
@@ -105,8 +105,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 392,
-          "Y": 858
+          "X": 390,
+          "Y": 861
         },
         "BoundingBox": {
           "Width": 87,
@@ -117,7 +117,19 @@
   },
   {
     "FrameNumber": 8,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 279,
+          "Y": 1054
+        },
+        "BoundingBox": {
+          "Width": 88,
+          "Height": 84
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 9,

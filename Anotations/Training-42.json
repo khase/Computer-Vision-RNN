@@ -5,7 +5,19 @@
   },
   {
     "FrameNumber": 1,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1952,
+          "Y": 372
+        },
+        "BoundingBox": {
+          "Width": 98,
+          "Height": 87
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 2,
@@ -13,12 +25,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1862,
-          "Y": 233
+          "X": 1861,
+          "Y": 236
         },
         "BoundingBox": {
           "Width": 100,
-          "Height": 86
+          "Height": 88
         }
       }
     ]
@@ -29,12 +41,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1767,
-          "Y": 114
+          "X": 1765,
+          "Y": 112
         },
         "BoundingBox": {
           "Width": 96,
-          "Height": 84
+          "Height": 89
         }
       }
     ]
@@ -45,12 +57,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 88,
-          "Y": 73
+          "X": 1669,
+          "Y": -4
         },
         "BoundingBox": {
-          "Width": 96,
-          "Height": 80
+          "Width": 95,
+          "Height": 99
         }
       }
     ]
@@ -113,12 +125,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 220,
+          "X": 217,
           "Y": 124
         },
         "BoundingBox": {
-          "Width": 100,
-          "Height": 94
+          "Width": 101,
+          "Height": 103
         }
       }
     ]
@@ -129,19 +141,31 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 114,
-          "Y": 268
+          "X": 113,
+          "Y": 267
         },
         "BoundingBox": {
           "Width": 99,
-          "Height": 91
+          "Height": 99
         }
       }
     ]
   },
   {
     "FrameNumber": 20,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 15,
+          "Y": 429
+        },
+        "BoundingBox": {
+          "Width": 92,
+          "Height": 96
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 21,

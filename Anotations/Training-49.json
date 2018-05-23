@@ -10,11 +10,11 @@
         "Tag": 0,
         "Position": {
           "X": 314,
-          "Y": 1052
+          "Y": 1067
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 57
+          "Width": 82,
+          "Height": 87
         }
       }
     ]
@@ -137,8 +137,8 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1668,
-          "Y": 698
+          "X": 1667,
+          "Y": 697
         },
         "BoundingBox": {
           "Width": 109,
