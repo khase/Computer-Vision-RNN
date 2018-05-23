@@ -303,11 +303,11 @@
         "Tag": 0,
         "Position": {
           "X": 588,
-          "Y": 144
+          "Y": 147
         },
         "BoundingBox": {
-          "Width": 92,
-          "Height": 86
+          "Width": 90,
+          "Height": 98
         }
       }
     ]
@@ -362,7 +362,19 @@
   },
   {
     "FrameNumber": 25,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 347,
+          "Y": 800
+        },
+        "BoundingBox": {
+          "Width": 91,
+          "Height": 93
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 26,

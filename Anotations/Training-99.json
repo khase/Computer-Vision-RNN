@@ -133,11 +133,35 @@
   },
   {
     "FrameNumber": 9,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1177,
+          "Y": 31
+        },
+        "BoundingBox": {
+          "Width": 112,
+          "Height": 67
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 10,
-    "Balls": []
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1318,
+          "Y": 8
+        },
+        "BoundingBox": {
+          "Width": 75,
+          "Height": 19
+        }
+      }
+    ]
   },
   {
     "FrameNumber": 11,
