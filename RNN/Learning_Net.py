@@ -43,10 +43,10 @@ def loadBatch(data):
     output = np.asarray(output)
     input = input.reshape((-1, batchsize-1, 4))  # The first index changing slowest, subseries as rows
     output = output.reshape((-1, 4))
-    print("input:")
-    print(input)
-    print("output:")
-    print(output)
+    #print("input:")
+    #print(input)
+    #print("output:")
+    #print(output)
     return (input, output)
 
 with open("AugmentedBatches.json") as f:
@@ -56,21 +56,21 @@ with open("AugmentedBatches.json") as f:
 model = Sequential()
 #Since we know the shape of our Data we can input the timestep and feature data
 #The number of timestep sequence are dealt with in the fit function
-model.add(LSTM(2048, input_shape=(4, 4)))
-model.add(Dropout(0.2))
+model.add(LSTM(1024, input_shape=(4, 4)))
+model.add(Dropout(0.15))
 #number of features on the output
 model.add(Dense(4, activation='softmax'))
 print("Compile")
-model.compile(loss='categorical_crossentropy', optimizer='adam')
+model.compile(loss='mean_squared_error', optimizer='adam')
 print(model.summary())
 print("Fit")
-for n in range(10):
+for n in range(5):
     X,y = loadBatch(data)
     print (n)
-    if (os.path.isfile("Own.hdf5")):
-        model.load_weights("Own.hdf5")
-    model.fit(X, y, epochs=10, batch_size=1000)
-    model.save_weights("Own.hdf5")
+    if (os.path.isfile("Own1024.hdf5")):
+        model.load_weights("Own1024.hdf5")
+    model.fit(X, y, epochs=20, batch_size=10000, verbose=1)
+    model.save_weights("Own1024.hdf5")
 print("Finished")
 
 mult = [1920,1080,1920,1080]
@@ -80,13 +80,11 @@ for i in range(2):
     randomStart = X[randomVal]
     x = np.reshape(randomStart, (1, len(randomStart), 4))
     pred = model.predict(x)
-    print("Start:")
-    randomStart = np.multiply(randomStart,mult)
-    print(randomStart)
-    print("pred:")
+    #print("Start:")
+    #randomStart = np.multiply(randomStart,mult)
+    #print(randomStart)
     pred = np.multiply(pred,mult)
     print(pred)
-    print("Real")
     real = y[randomVal]
     real = np.multiply(real,mult)
     print(real)
