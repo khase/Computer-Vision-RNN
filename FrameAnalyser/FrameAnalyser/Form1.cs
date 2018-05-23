@@ -19,8 +19,8 @@ namespace FrameAnalyser
             InitializeComponent();
         }
 
-        string VideoPath = @"F:\Computer Vision\Computer-Vision-RNN\Videos\";
-        string AnnotationPath = @"F:\Computer Vision\Computer-Vision-RNN\Anotations\";
+        string VideoPath = @"..\..\..\..\Videos\";
+        string AnnotationPath = @"..\..\..\..\Anotations\";
         string FileName = "Training-5.mp4";
 
         List<dto.Frame> frames = new List<dto.Frame>();
@@ -31,6 +31,17 @@ namespace FrameAnalyser
         {
             //vFReader.Open(VideoPath + FileName);
             //frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(AnnotationPath + FileName.Split('.').First()));
+
+            // Fix JSON
+            //foreach (string f in Directory.GetFiles(AnnotationPath, "*.json"))
+            //{
+            //    List<dto.Frame> tmp = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(f));
+            //    for (int j = 0; j < tmp.Count; j++)
+            //    {
+            //        tmp[j].FrameNumber = j;
+            //    }
+            //    File.WriteAllText(f, Newtonsoft.Json.JsonConvert.SerializeObject(tmp, Newtonsoft.Json.Formatting.Indented));
+            //}
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -251,10 +262,11 @@ namespace FrameAnalyser
         {
             if (vFReader != null && vFReader.IsOpen)
             {
-                for (int j = 0; j < frames.Count; j++)
-                {
-                    frames[j].FrameNumber = j;
-                }
+                // Fix JSON
+                //for (int j = 0; j < frames.Count; j++)
+                //{
+                //    frames[j].FrameNumber = j;
+                //}
                 File.WriteAllText(AnnotationPath + FileName.Split('.').First() + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(frames, Newtonsoft.Json.Formatting.Indented));
             }
         }

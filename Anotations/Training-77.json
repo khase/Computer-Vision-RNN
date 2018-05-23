@@ -1,288 +1,355 @@
 [
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 28, "y": 832},
-				"boundingBox": {"width": 55, "height": 81}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 56, "y": 673},
-				"boundingBox": {"width": 88, "height": 82}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1592, "y": 76},
-				"boundingBox": {"width": 99, "height": 89}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 110, "y": 530},
-				"boundingBox": {"width": 101, "height": 85}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1406, "y": 96},
-				"boundingBox": {"width": 103, "height": 91}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1225, "y": 128},
-				"boundingBox": {"width": 100, "height": 98}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 220, "y": 277},
-				"boundingBox": {"width": 97, "height": 82}
-			},
-			{
-				"tag": 1,
-				"position": {"x": 1044, "y": 185},
-				"boundingBox": {"width": 99, "height": 98}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 282, "y": 176},
-				"boundingBox": {"width": 97, "height": 87}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 338, "y": 84},
-				"boundingBox": {"width": 94, "height": 89}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 400, "y": 26},
-				"boundingBox": {"width": 101, "height": 52}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 338, "y": 576},
-				"boundingBox": {"width": 91, "height": 92}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 166, "y": 720},
-				"boundingBox": {"width": 94, "height": 89}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1012, "y": 84},
-				"boundingBox": {"width": 96, "height": 105}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1082, "y": 184},
-				"boundingBox": {"width": 101, "height": 98}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1155, "y": 304},
-				"boundingBox": {"width": 98, "height": 108}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1227, "y": 443},
-				"boundingBox": {"width": 98, "height": 98}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1302, "y": 602},
-				"boundingBox": {"width": 104, "height": 99}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1372, "y": 780},
-				"boundingBox": {"width": 99, "height": 104}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1442, "y": 979},
-				"boundingBox": {"width": 103, "height": 108}
-			}
-		]
-	},
-	{
-		"frameNumber": 77,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1442, "y": 979},
-				"boundingBox": {"width": 103, "height": 108}
-			}
-		]
-	}]
+  {
+    "FrameNumber": 0,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 1,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 2,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 28,
+          "Y": 832
+        },
+        "BoundingBox": {
+          "Width": 55,
+          "Height": 81
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 3,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 56,
+          "Y": 673
+        },
+        "BoundingBox": {
+          "Width": 88,
+          "Height": 82
+        }
+      },
+      {
+        "Tag": 1,
+        "Position": {
+          "X": 1592,
+          "Y": 76
+        },
+        "BoundingBox": {
+          "Width": 99,
+          "Height": 89
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 4,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 110,
+          "Y": 530
+        },
+        "BoundingBox": {
+          "Width": 101,
+          "Height": 85
+        }
+      },
+      {
+        "Tag": 1,
+        "Position": {
+          "X": 1406,
+          "Y": 96
+        },
+        "BoundingBox": {
+          "Width": 103,
+          "Height": 91
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 5,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1225,
+          "Y": 128
+        },
+        "BoundingBox": {
+          "Width": 100,
+          "Height": 98
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 6,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 220,
+          "Y": 277
+        },
+        "BoundingBox": {
+          "Width": 97,
+          "Height": 82
+        }
+      },
+      {
+        "Tag": 1,
+        "Position": {
+          "X": 1044,
+          "Y": 185
+        },
+        "BoundingBox": {
+          "Width": 99,
+          "Height": 98
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 7,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 282,
+          "Y": 176
+        },
+        "BoundingBox": {
+          "Width": 97,
+          "Height": 87
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 8,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 338,
+          "Y": 84
+        },
+        "BoundingBox": {
+          "Width": 94,
+          "Height": 89
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 9,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 400,
+          "Y": 26
+        },
+        "BoundingBox": {
+          "Width": 101,
+          "Height": 52
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 10,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 338,
+          "Y": 576
+        },
+        "BoundingBox": {
+          "Width": 91,
+          "Height": 92
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 11,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 166,
+          "Y": 720
+        },
+        "BoundingBox": {
+          "Width": 94,
+          "Height": 89
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 12,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 13,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 14,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 15,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 16,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 17,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 18,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1012,
+          "Y": 84
+        },
+        "BoundingBox": {
+          "Width": 96,
+          "Height": 105
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 19,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1082,
+          "Y": 184
+        },
+        "BoundingBox": {
+          "Width": 101,
+          "Height": 98
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 20,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1155,
+          "Y": 304
+        },
+        "BoundingBox": {
+          "Width": 98,
+          "Height": 108
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 21,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1227,
+          "Y": 443
+        },
+        "BoundingBox": {
+          "Width": 98,
+          "Height": 98
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 22,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1302,
+          "Y": 602
+        },
+        "BoundingBox": {
+          "Width": 104,
+          "Height": 99
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 23,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1372,
+          "Y": 780
+        },
+        "BoundingBox": {
+          "Width": 99,
+          "Height": 104
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 24,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1442,
+          "Y": 979
+        },
+        "BoundingBox": {
+          "Width": 103,
+          "Height": 108
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 25,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1442,
+          "Y": 979
+        },
+        "BoundingBox": {
+          "Width": 103,
+          "Height": 108
+        }
+      }
+    ]
+  }
+]

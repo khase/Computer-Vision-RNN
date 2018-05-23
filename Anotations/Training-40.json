@@ -1,100 +1,86 @@
 [
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1800, "y": 502},
-				"boundingBox": {"width": 89, "height": 77}
-			}
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1645, "y": 344},
-				"boundingBox": {"width": 88, "height": 81}
-			}
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-			{
-				"tag": 0,
-				"position": {"x": 1490, "y": 202},
-				"boundingBox": {"width": 89, "height": 85}
-			}
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	},
-	{
-		"frameNumber": 40,
-		"balls":
-		[
-
-		]
-	}]
+  {
+    "FrameNumber": 0,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 1,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 2,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1800,
+          "Y": 502
+        },
+        "BoundingBox": {
+          "Width": 89,
+          "Height": 77
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 3,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1645,
+          "Y": 344
+        },
+        "BoundingBox": {
+          "Width": 88,
+          "Height": 81
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 4,
+    "Balls": [
+      {
+        "Tag": 0,
+        "Position": {
+          "X": 1490,
+          "Y": 202
+        },
+        "BoundingBox": {
+          "Width": 89,
+          "Height": 85
+        }
+      }
+    ]
+  },
+  {
+    "FrameNumber": 5,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 6,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 7,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 8,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 9,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 10,
+    "Balls": []
+  },
+  {
+    "FrameNumber": 11,
+    "Balls": []
+  }
+]
