@@ -41,3 +41,5 @@ mask_rcnn_coco.h5
 
 RNN/AugmentedBatches\.json
 RNN/Test
+
+RNN/Batches\.json
