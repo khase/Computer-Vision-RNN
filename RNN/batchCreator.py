@@ -37,11 +37,15 @@ print("Invalid Framecount: " + str(invalidFrameCount))
 Batches = []
 for i in range(BatchSize - 1, len(allFrames)):
     batch = []
+    frameNumber = 0
     for o in reversed(range(0, BatchSize)):
         frame = allFrames[i - o]
-        balls = frame["Balls"]
-        if balls != None and len(balls) > 0:
-            batch.append(frame)
+        if (o == BatchSize - 1):
+            frameNumber = frame["FrameNumber"]
+        if frame["FrameNumber"] == frameNumber + BatchSize - 1 - o:
+            balls = frame["Balls"]
+            if balls != None and len(balls) > 0:
+                batch.append(frame)
     if (len(batch) == BatchSize):
         Batches.append(batch)
 
