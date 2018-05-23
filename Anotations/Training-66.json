@@ -17,8 +17,8 @@
           "Y": 202
         },
         "BoundingBox": {
-          "Width": 101,
-          "Height": 88
+          "Width": 115,
+          "Height": 97
         }
       }
     ]
@@ -29,12 +29,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 312,
-          "Y": 162
+          "X": 311,
+          "Y": 164
         },
         "BoundingBox": {
-          "Width": 102,
-          "Height": 89
+          "Width": 106,
+          "Height": 100
         }
       }
     ]
@@ -49,8 +49,8 @@
           "Y": 142
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 91
+          "Width": 104,
+          "Height": 94
         }
       }
     ]
@@ -61,12 +61,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 654,
-          "Y": 135
+          "X": 651,
+          "Y": 134
         },
         "BoundingBox": {
-          "Width": 93,
-          "Height": 88
+          "Width": 103,
+          "Height": 97
         }
       }
     ]
@@ -77,12 +77,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 827,
-          "Y": 141
+          "X": 823,
+          "Y": 140
         },
         "BoundingBox": {
-          "Width": 96,
-          "Height": 82
+          "Width": 104,
+          "Height": 95
         }
       }
     ]
@@ -94,11 +94,11 @@
         "Tag": 0,
         "Position": {
           "X": 996,
-          "Y": 163
+          "Y": 169
         },
         "BoundingBox": {
-          "Width": 94,
-          "Height": 82
+          "Width": 104,
+          "Height": 100
         }
       }
     ]
@@ -125,12 +125,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1350,
-          "Y": 266
+          "X": 1344,
+          "Y": 264
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 95
+          "Width": 111,
+          "Height": 103
         }
       }
     ]
@@ -142,11 +142,11 @@
         "Tag": 0,
         "Position": {
           "X": 1519,
-          "Y": 340
+          "Y": 339
         },
         "BoundingBox": {
-          "Width": 96,
-          "Height": 93
+          "Width": 111,
+          "Height": 104
         }
       }
     ]
@@ -157,12 +157,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1693,
-          "Y": 432
+          "X": 1692,
+          "Y": 431
         },
         "BoundingBox": {
-          "Width": 96,
-          "Height": 93
+          "Width": 111,
+          "Height": 108
         }
       }
     ]
@@ -177,8 +177,8 @@
           "Y": 540
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 96
+          "Width": 106,
+          "Height": 107
         }
       }
     ]
