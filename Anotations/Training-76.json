@@ -13,8 +13,8 @@
           "Y": 1016
         },
         "BoundingBox": {
-          "Width": 90,
-          "Height": 85
+          "Width": 91,
+          "Height": 98
         }
       }
     ]
@@ -25,12 +25,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 150,
+          "X": 148,
           "Y": 883
         },
         "BoundingBox": {
-          "Width": 95,
-          "Height": 78
+          "Width": 105,
+          "Height": 97
         }
       }
     ]
@@ -41,12 +41,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 259,
-          "Y": 757
+          "X": 261,
+          "Y": 761
         },
         "BoundingBox": {
-          "Width": 94,
-          "Height": 80
+          "Width": 100,
+          "Height": 97
         }
       },
       {
@@ -72,8 +72,8 @@
           "Y": 649
         },
         "BoundingBox": {
-          "Width": 94,
-          "Height": 88
+          "Width": 103,
+          "Height": 96
         }
       },
       {
@@ -99,8 +99,8 @@
           "Y": 554
         },
         "BoundingBox": {
-          "Width": 95,
-          "Height": 88
+          "Width": 105,
+          "Height": 99
         }
       },
       {
@@ -126,8 +126,8 @@
           "Y": 469
         },
         "BoundingBox": {
-          "Width": 95,
-          "Height": 88
+          "Width": 105,
+          "Height": 99
         }
       },
       {
@@ -147,25 +147,14 @@
     "FrameNumber": 7,
     "Balls": [
       {
-        "Tag": 0,
-        "Position": {
-          "X": 296,
-          "Y": 395
-        },
-        "BoundingBox": {
-          "Width": 90,
-          "Height": 84
-        }
-      },
-      {
         "Tag": 1,
         "Position": {
           "X": 755,
-          "Y": 399
+          "Y": 398
         },
         "BoundingBox": {
-          "Width": 92,
-          "Height": 90
+          "Width": 112,
+          "Height": 107
         }
       }
     ]
@@ -174,25 +163,14 @@
     "FrameNumber": 8,
     "Balls": [
       {
-        "Tag": 0,
-        "Position": {
-          "X": 146,
-          "Y": 520
-        },
-        "BoundingBox": {
-          "Width": 95,
-          "Height": 94
-        }
-      },
-      {
         "Tag": 1,
         "Position": {
           "X": 892,
           "Y": 343
         },
         "BoundingBox": {
-          "Width": 97,
-          "Height": 96
+          "Width": 109,
+          "Height": 108
         }
       }
     ]
@@ -203,12 +181,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1038,
+          "X": 1036,
           "Y": 303
         },
         "BoundingBox": {
-          "Width": 107,
-          "Height": 102
+          "Width": 117,
+          "Height": 110
         }
       },
       {
@@ -234,8 +212,8 @@
           "Y": 285
         },
         "BoundingBox": {
-          "Width": 103,
-          "Height": 106
+          "Width": 124,
+          "Height": 118
         }
       }
     ]
@@ -246,12 +224,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1335,
-          "Y": 279
+          "X": 1332,
+          "Y": 278
         },
         "BoundingBox": {
-          "Width": 108,
-          "Height": 102
+          "Width": 123,
+          "Height": 114
         }
       }
     ]
@@ -262,12 +240,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1493,
-          "Y": 294
+          "X": 1490,
+          "Y": 290
         },
         "BoundingBox": {
-          "Width": 106,
-          "Height": 107
+          "Width": 121,
+          "Height": 122
         }
       }
     ]
@@ -278,12 +256,12 @@
       {
         "Tag": 0,
         "Position": {
-          "X": 1657,
-          "Y": 331
+          "X": 1656,
+          "Y": 326
         },
         "BoundingBox": {
-          "Width": 114,
-          "Height": 106
+          "Width": 129,
+          "Height": 124
         }
       }
     ]
@@ -298,8 +276,8 @@
           "Y": 388
         },
         "BoundingBox": {
-          "Width": 129,
-          "Height": 119
+          "Width": 135,
+          "Height": 127
         }
       }
     ]
