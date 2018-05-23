@@ -90,14 +90,19 @@ namespace FrameAnalyser
 
         private void loadFrame()
         {
-            if (i > vFReader.FrameCount)
+            if (i > vFReader.FrameCount - 1)
             {
-                i = (int)vFReader.FrameCount;
-            } else if (i < 0)
-            {
-                i = 0;
+                i = (int)vFReader.FrameCount - 1;
             }
-            origFrame = vFReader.ReadVideoFrame(i);
+            else if (i <= 0)
+            {
+                i = 1;
+            }
+            else
+            {
+                origFrame = vFReader.ReadVideoFrame(i);
+            }
+            this.Text = i + " / " + (vFReader.FrameCount - 1);
         }
 
         private Bitmap overlay(Bitmap bmp, dto.Frame frame)
@@ -119,7 +124,7 @@ namespace FrameAnalyser
         private unsafe Rectangle FindBall(Bitmap source)
         {
             int bitsPerPixel = 24;
-            BitmapData bData = source.LockBits(new Rectangle(0, 0, source.Width, source.Height), ImageLockMode.ReadOnly, source.PixelFormat);
+            BitmapData bData = source.LockBits(new Rectangle(0, 0, source.Width, source.Height), ImageLockMode.ReadWrite, source.PixelFormat);
 
             /*This time we convert the IntPtr to a ptr*/
             byte* scan0 = (byte*)bData.Scan0.ToPointer();
@@ -145,18 +150,18 @@ namespace FrameAnalyser
                     }
                     else
                     {
-                        //*r = 0;
-                        //*g = 0;
-                        //*b = 0;
+                        *r = 0;
+                        *g = 0;
+                        *b = 0;
                     }
                 }
             }
             source.UnlockBits(bData);
 
-            int minX = ballPixels.Select(p => p.X).OrderBy(x => x).Skip(40).Min();
-            int maxX = ballPixels.Select(p => p.X).OrderByDescending(x => x).Skip(40).Max();
-            int minY = ballPixels.Select(p => p.Y).OrderBy(y => y).Skip(40).Min();
-            int maxY = ballPixels.Select(p => p.Y).OrderByDescending(y => y).Skip(40).Max();
+            int minX = ballPixels.Select(p => p.X).OrderBy(x => x).Skip(100).Min() - 2;
+            int maxX = ballPixels.Select(p => p.X).OrderByDescending(x => x).Skip(100).Max() + 2;
+            int minY = ballPixels.Select(p => p.Y).OrderBy(y => y).Skip(100).Min() - 2;
+            int maxY = ballPixels.Select(p => p.Y).OrderByDescending(y => y).Skip(100).Max() + 2;
 
             return new Rectangle(new Point(minX, minY), new Size(maxX - minX, maxY - minY));
         }
@@ -392,6 +397,7 @@ namespace FrameAnalyser
                 frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(tInfo.FullName));
             }
             i = 1;
+            loadFrame();
             clear();
             update();
         }
