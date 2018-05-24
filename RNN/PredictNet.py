@@ -1,15 +1,7 @@
-import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
 from keras.layers import LSTM
-from keras.layers import Flatten
-from keras.utils import np_utils
-from keras.utils import plot_model
-import json
-import os.path
-import random
-
 
 def loadBatch(data):
 
@@ -52,7 +44,6 @@ def loadBatch(data):
 with open("AugmentedBatches.json") as f:
     data = json.load(f)
 
-#np.set_printoptions(threshold=np.inf)
 model = Sequential()
 #Since we know the shape of our Data we can input the timestep and feature data
 #The number of timestep sequence are dealt with in the fit function
@@ -66,17 +57,21 @@ model.add(Dropout(0.2))
 model.add(Dense(4, activation='softmax'))
 print("Compile")
 model.compile(loss='mean_squared_error', optimizer='adam')
-print(model.summary())
-runs = 1
-#for n in range(5):
-while True:
-    print ("Run no. " + str(runs) + ". Shuffling Data....")
-    runs = runs + 1
-    X,y = loadBatch(data)
-    if (os.path.isfile("Own512_3.hdf5")):
-        print("Loading Weights")
-        model.load_weights("Own512_3.hdf5")
-    print("Fit")
-    model.fit(X, y, epochs=200, batch_size=1024)
-    print("Saving Weights")
-    model.save_weights("Own512_3.hdf5")
+
+model.load_weights("Own512_3.hdf5")
+
+mult = [1920,1080,1920,1080]
+
+for i in range(10):
+    randomVal = np.random.randint(0, len(X)-1)
+    randomStart = X[randomVal]
+    x = np.reshape(randomStart, (1, len(randomStart), 4))
+    pred = model.predict(x)
+    #print("Start:")
+    #randomStart = np.multiply(randomStart,mult)
+    #print(randomStart)
+    pred = np.multiply(pred,mult)
+    print(pred)
+    real = y[randomVal]
+    real = np.multiply(real,mult)
+    print(real)

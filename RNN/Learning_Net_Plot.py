@@ -66,17 +66,4 @@ model.add(Dropout(0.2))
 model.add(Dense(4, activation='softmax'))
 print("Compile")
 model.compile(loss='mean_squared_error', optimizer='adam')
-print(model.summary())
-runs = 1
-#for n in range(5):
-while True:
-    print ("Run no. " + str(runs) + ". Shuffling Data....")
-    runs = runs + 1
-    X,y = loadBatch(data)
-    if (os.path.isfile("Own512_3.hdf5")):
-        print("Loading Weights")
-        model.load_weights("Own512_3.hdf5")
-    print("Fit")
-    model.fit(X, y, epochs=200, batch_size=1024)
-    print("Saving Weights")
-    model.save_weights("Own512_3.hdf5")
+plot_model(model, to_file='model.png')pip
