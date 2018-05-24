@@ -8,7 +8,7 @@ import random
 
 def loadBatch(data):
 
-    random.shuffle(data)
+    #random.shuffle(data)
     batchsize = 0
     input = []
     output = []
@@ -66,18 +66,18 @@ model.load_weights("Own512_3.hdf5")
 mult = [1920,1080,1920,1080]
 
 X,y = loadBatch(data)
-for i in range(10):
-    randomVal = np.random.randint(0, len(X)-1)
-    randomStart = X[randomVal]
+for i in range(0,60000):
+    #randomVal = np.random.randint(0, len(X)-1)
+    randomStart = X[i]
     x = np.reshape(randomStart, (1, len(randomStart), 4))
     pred = model.predict(x)
     #print("Start:")
     #randomStart = np.multiply(randomStart,mult)
     #print(randomStart)
-    real = y[randomVal]
+    real = y[i]
     real = np.multiply(real,mult)
     pred = np.multiply(pred,mult)
-    print(pred.astype(int))
-    print(real.astype(int))
+    #print(pred.astype(int))
+    #print(real.astype(int))
     diff = real-pred
-    print(diff.astype(int))
+    print(str(i) + " " + str(diff.astype(int)))

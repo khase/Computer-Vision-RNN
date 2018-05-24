@@ -37,7 +37,8 @@ mask_rcnn_coco.h5
 *.jpg
 *.jpeg
 *.avi
-*.png
+
+Videos/Training*
 
 RNN/AugmentedBatches\.json
 RNN/Test
