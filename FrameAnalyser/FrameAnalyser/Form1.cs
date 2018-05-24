@@ -383,7 +383,7 @@ namespace FrameAnalyser
             FileInfo pInfo = new FileInfo(AnnotationPath + FileName.Split('.').First().Replace("Training", "Prediction") + ".json");
             if (pInfo.Exists)
             {
-                if (MessageBox.Show("Prediction-File found, wan't to load it?", "Prediction", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.OK)
+                if (MessageBox.Show("Prediction-File found, wan't to load it?", "Prediction", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(pInfo.FullName));
                 }
