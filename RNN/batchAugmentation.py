@@ -20,12 +20,10 @@ def calculate(parameter, x, scale):
 with open("Batches.json") as f:
     batches = json.load(f)
     print(str(len(batches)) + " batches loaded")
-    #counter = 1
+
     augmentedBatches = []
+
     for batch in batches:
-        #if(counter % 933 != 0):
-        #    counter += 1
-        #    continue
         newBatches = []
         for offset in range(-300, 301, 5):
             batchCopy = copy.deepcopy(batch)
@@ -49,15 +47,17 @@ with open("Batches.json") as f:
     print(str(len(augmentedBatches)) + " total batches augmented")
 
     # print Batches to disk
-    #print("Writing Batches to: " + "./AugmentedBatches.json")
-    #with open('AugmentedBatches.json', 'w') as outfile:
-    #    json.dump(augmentedBatches, outfile, sort_keys=True, indent=2)
+    print("Writing Batches to: " + "./AugmentedBatches.json")
+    with open('AugmentedBatches.json', 'w') as outfile:
+        json.dump(augmentedBatches, outfile, sort_keys=True, indent=2)
+        
+    augmentedBatches = []
     
     # loop to stretch the square function
-    #counter = 0
+    counter = 0
     for batch in batches:
         # Just to speed it up on my slug ^<^ 
-        #if(counter % 1000 != 0):
+        #if(counter % 30 != 0):
         #    counter += 1
         #    continue
         newBatches = []
@@ -132,9 +132,7 @@ with open("Batches.json") as f:
     with open('AugmentedBatches.json', 'w') as outfile:
         json.dump(augmentedBatches, outfile, sort_keys=True, indent=2)
 
-"""
 #Check if there are some invalid Frames
-counter = 0
 with open("AugmentedBatches.json") as f:
     batches = json.load(f)
     print(str(len(batches)) + " batches loaded")
@@ -145,4 +143,3 @@ with open("AugmentedBatches.json") as f:
                         print("Fehlerhaften Wert X gefunden")
                     if ball["Position"]["Y"] < 0 or ball["Position"]["Y"] > 1080:
                         print("Fehlerhaften Wert Y gefunden")
-"""
