@@ -46,20 +46,12 @@ with open("Batches.json") as f:
     # print some statistics    
     print(str(len(augmentedBatches)) + " total batches augmented")
 
-    # print Batches to disk
-    print("Writing Batches to: " + "./AugmentedBatches.json")
-    with open('AugmentedBatches.json', 'w') as outfile:
-        json.dump(augmentedBatches, outfile, sort_keys=True, indent=2)
-        
-    augmentedBatches = []
-    
     # loop to stretch the square function
     counter = 0
     for batch in batches:
-        # Just to speed it up on my slug ^<^ 
-        #if(counter % 30 != 0):
-        #    counter += 1
-        #    continue
+        if(counter % 10 != 0):
+            counter += 1
+            continue
         newBatches = []
         #check if enough Points for an square function
         functionFound = False    
@@ -126,13 +118,7 @@ with open("Batches.json") as f:
         augmentedBatches.extend(newBatches)
     # print some statistics    
     print(str(len(augmentedBatches)) + " total batches augmented")
-    
-    # print Batches to disk
-    print("Writing Batches to: " + "./AugmentedBatches.json")
-    with open('AugmentedBatches.json', 'w') as outfile:
-        json.dump(augmentedBatches, outfile, sort_keys=True, indent=2)
 
-#Check if there are some invalid Frames
 with open("AugmentedBatches.json") as f:
     batches = json.load(f)
     print(str(len(batches)) + " batches loaded")
