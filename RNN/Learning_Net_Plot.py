@@ -66,4 +66,4 @@ model.add(Dropout(0.2))
 model.add(Dense(4, activation='softmax'))
 print("Compile")
 model.compile(loss='mean_squared_error', optimizer='adam')
-plot_model(model, to_file='model.png')
+plot_model(model, to_file='model.png')pip

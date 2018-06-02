@@ -27,15 +27,15 @@ def loadBatch(data):
                 continue
         for frame in batch:
             if index < batchsize-1:
-                input.append(frame.get("Balls")[0]["Position"]["X"]/1920)
-                input.append(frame.get("Balls")[0]["Position"]["Y"]/1080)
-                input.append(frame.get("Balls")[0]["BoundingBox"]["Width"]/1920)
-                input.append(frame.get("Balls")[0]["BoundingBox"]["Height"]/1080)
+                input.append(frame["Balls"][0]["Position"]["X"]/1920)
+                input.append(frame["Balls"][0]["Position"]["Y"]/1080)
+                input.append(frame["Balls"][0]["BoundingBox"]["Width"]/1920)
+                input.append(frame["Balls"][0]["BoundingBox"]["Height"]/1080)
             else:
-                output.append(frame.get("Balls")[0]["Position"]["X"]/1920)
-                output.append(frame.get("Balls")[0]["Position"]["Y"]/1080)
-                output.append(frame.get("Balls")[0]["BoundingBox"]["Width"]/1920)
-                output.append(frame.get("Balls")[0]["BoundingBox"]["Height"]/1080)
+                output.append(frame["Balls"][0]["Position"]["X"]/1920)
+                output.append(frame["Balls"][0]["Position"]["Y"]/1080)
+                output.append(frame["Balls"][0]["BoundingBox"]["Width"]/1920)
+                output.append(frame["Balls"][0]["BoundingBox"]["Height"]/1080)
 
             index += 1
 
@@ -56,12 +56,12 @@ with open("AugmentedBatches.json") as f:
 model = Sequential()
 #Since we know the shape of our Data we can input the timestep and feature data
 #The number of timestep sequence are dealt with in the fit function
-model.add(LSTM(256, return_sequences=True, input_shape=(4, 4)))
-model.add(Dropout(0.3))
-model.add(LSTM(256, return_sequences=True))
-model.add(Dropout(0.3))
-model.add(LSTM(256))
-model.add(Dropout(0.3))
+model.add(LSTM(512, return_sequences=True, input_shape=(4, 4)))
+model.add(Dropout(0.2))
+model.add(LSTM(512, return_sequences=True))
+model.add(Dropout(0.2))
+model.add(LSTM(512))
+model.add(Dropout(0.2))
 #number of features on the output
 model.add(Dense(4, activation='softmax'))
 print("Compile")
@@ -77,6 +77,6 @@ while True:
         print("Loading Weights")
         model.load_weights("Own512_3.hdf5")
     print("Fit")
-    model.fit(X, y, epochs=1, batch_size=16)
+    model.fit(X, y, epochs=200, batch_size=1024)
     print("Saving Weights")
     model.save_weights("Own512_3.hdf5")
