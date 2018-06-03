@@ -92,7 +92,7 @@ with open("Batches.json") as f:
                 for frame in batchCopy:
                     for ball in frame["Balls"]:
                         # Stauchung
-                        ball["Position"]["Y"] = calculate(vertexForm, ball["Position"]["X"], offset)
+                        ball["Position"]["Y"] = int(calculate(vertexForm, ball["Position"]["X"], offset))
                         #print("Y = " + str(ball["Position"]["Y"]))
                         if ball["Position"]["Y"] < 0 or ball["Position"]["Y"] > 1080:
                             isBatchValid = False
