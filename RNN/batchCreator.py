@@ -62,7 +62,7 @@ for batch in Batches:
         else:
             x = ball["Position"]["X"] - prevPos["X"]
             y = ball["Position"]["Y"] - prevPos["Y"]
-            #prevPos = copy.deepcopy(ball["Position"])
+            prevPos = copy.deepcopy(ball["Position"])
             ball["Position"]["X"] = x
             ball["Position"]["Y"] = y
 

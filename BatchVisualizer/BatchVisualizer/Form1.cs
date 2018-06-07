@@ -22,7 +22,7 @@ namespace BatchVisualizer
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/Batches.json"));
+            batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/AugmentedBatches.json"));
             hScrollBar1.Minimum = 0;
             hScrollBar1.Maximum = batches.Count;
         }

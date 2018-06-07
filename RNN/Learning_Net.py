@@ -6,6 +6,7 @@ from keras.layers import LSTM
 from keras.layers import Flatten
 from keras.utils import np_utils
 from keras.utils import plot_model
+from keras.callbacks import CSVLogger
 import json
 import os.path
 import random
@@ -27,15 +28,15 @@ def loadBatch(data):
                 continue
         for frame in batch:
             if index < batchsize-1:
-                input.append(frame["Balls"][0]["Position"]["X"]/1920)
-                input.append(frame["Balls"][0]["Position"]["Y"]/1080)
-                input.append(frame["Balls"][0]["BoundingBox"]["Width"]/1920)
-                input.append(frame["Balls"][0]["BoundingBox"]["Height"]/1080)
+                input.append(frame["Balls"][0]["Position"]["X"])
+                input.append(frame["Balls"][0]["Position"]["Y"])
+                input.append(frame["Balls"][0]["BoundingBox"]["Width"])
+                input.append(frame["Balls"][0]["BoundingBox"]["Height"])
             else:
-                output.append(frame["Balls"][0]["Position"]["X"]/1920)
-                output.append(frame["Balls"][0]["Position"]["Y"]/1080)
-                output.append(frame["Balls"][0]["BoundingBox"]["Width"]/1920)
-                output.append(frame["Balls"][0]["BoundingBox"]["Height"]/1080)
+                output.append(frame["Balls"][0]["Position"]["X"])
+                output.append(frame["Balls"][0]["Position"]["Y"])
+                output.append(frame["Balls"][0]["BoundingBox"]["Width"])
+                output.append(frame["Balls"][0]["BoundingBox"]["Height"])
 
             index += 1
 
@@ -56,27 +57,31 @@ with open("AugmentedBatches.json") as f:
 model = Sequential()
 #Since we know the shape of our Data we can input the timestep and feature data
 #The number of timestep sequence are dealt with in the fit function
-model.add(LSTM(512, return_sequences=True, input_shape=(4, 4)))
-model.add(Dropout(0.2))
-model.add(LSTM(512, return_sequences=True))
-model.add(Dropout(0.2))
-model.add(LSTM(512))
-model.add(Dropout(0.2))
+model.add(LSTM(20, return_sequences=True, input_shape=(9, 4)))
+model.add(Dropout(0.5))
+model.add(LSTM(10, return_sequences=True))
+model.add(Dropout(0.5))
+model.add(LSTM(5))
+model.add(Dropout(0.5))
 #number of features on the output
+#model.add(LSTM(50, input_shape=(9, 4)))
+#model.add(Dropout(0.2))
 model.add(Dense(4, activation='softmax'))
 print("Compile")
-model.compile(loss='mean_squared_error', optimizer='adam')
+model.compile(loss='mean_absolute_error', optimizer='adam')
 print(model.summary())
 runs = 1
 #for n in range(5):
+csv_logger = CSVLogger('log20_10_5_2.txt', append=True, separator=';')
+file = "Own20_10_5_2.hdf5"
 while True:
     print ("Run no. " + str(runs) + ". Shuffling Data....")
     runs = runs + 1
     X,y = loadBatch(data)
-    if (os.path.isfile("Own512_3.hdf5")):
+    if (os.path.isfile(file)):
         print("Loading Weights")
-        model.load_weights("Own512_3.hdf5")
+        model.load_weights(file)
     print("Fit")
-    model.fit(X, y, epochs=200, batch_size=1024)
+    model.fit(X, y, epochs=10, batch_size=1000, callbacks=[csv_logger])
     print("Saving Weights")
-    model.save_weights("Own512_3.hdf5")
+    model.save_weights(file)
