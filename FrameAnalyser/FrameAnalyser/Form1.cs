@@ -44,6 +44,51 @@ namespace FrameAnalyser
             //    }
             //    File.WriteAllText(f, Newtonsoft.Json.JsonConvert.SerializeObject(tmp, Newtonsoft.Json.Formatting.Indented));
             //}
+
+            //buildVideo();
+            //images2Video("images");
+            //images2Video("path");
+            //images2Video("pred");
+        }
+
+        private void buildVideo()
+        {
+            VideoFileWriter wrt = new VideoFileWriter();
+            wrt.Open("FullAnnotations.mp4", 1920, 1080, 10, VideoCodec.MPEG4, 20 * (10 ^ 6));
+            foreach (string f in Directory.GetFiles(VideoPath, "*.mp4"))
+            {
+                FileInfo video = new FileInfo(f);
+                FileInfo anotation = new FileInfo(f.Replace("Videos", "Anotations").Replace("mp4", "json"));
+                VideoFileReader rd = new VideoFileReader();
+                rd.Open(video.FullName);
+                List<dto.Frame> frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(anotation.FullName));
+                for (int i = 0; i < rd.FrameCount - 1; i++)
+                {
+                    Bitmap frame = rd.ReadVideoFrame();
+                    overlay(frame, frames[i]);
+                    wrt.WriteVideoFrame(frame);
+                }
+            }
+
+            wrt.Flush();
+            wrt.Close();
+        }
+
+        private void images2Video(string path)
+        {
+            DirectoryInfo di = new DirectoryInfo(path);
+            if (!di.Exists)
+                return;
+
+            VideoFileWriter wrt = new VideoFileWriter();
+            wrt.Open(path + "/Video.mp4", 1920, 1080, 10, VideoCodec.MPEG4, 20 * (10 ^ 6));
+            foreach (FileInfo fi in di.GetFiles("*.png"))
+            {
+                wrt.WriteVideoFrame(new Bitmap(fi.FullName));
+                wrt.WriteVideoFrame(new Bitmap(fi.FullName));
+            }
+            wrt.Flush();
+            wrt.Close();
         }
 
         private void prev_Click(object sender, EventArgs e)
@@ -105,17 +150,27 @@ namespace FrameAnalyser
             this.Text = i + " / " + (vFReader.FrameCount - 1);
         }
 
-        private Bitmap overlay(Bitmap bmp, dto.Frame frame)
+        private Bitmap overlay(Bitmap bmp, dto.Frame frame, Point[] path = null, Point prediction = new Point())
         {
             if (bmp == null || frame == null)
                 return bmp;
-            Pen blackPen = new Pen(Color.Green, 3);
+            Pen redPen = new Pen(Color.Red, 3);
+            Pen greenPen = new Pen(Color.Green, 3);
+            Pen bluePen = new Pen(Color.Blue, 3);
             using (var graphics = Graphics.FromImage(bmp))
             {
                 if (frame.Balls != null && frame.Balls.Count > 0)
                 {
                     dto.Ball ball = frame.Balls[0];
-                    graphics.DrawRectangle(blackPen, new Rectangle(new Point(ball.Position.X - (ball.BoundingBox.Width / 2), ball.Position.Y - (ball.BoundingBox.Height / 2)), new Size(ball.BoundingBox.Width, ball.BoundingBox.Height)));
+                    graphics.DrawRectangle(greenPen, new Rectangle(new Point(ball.Position.X - (ball.BoundingBox.Width / 2), ball.Position.Y - (ball.BoundingBox.Height / 2)), new Size(ball.BoundingBox.Width, ball.BoundingBox.Height)));
+                }
+                if (path != null && path.Length > 1)
+                {
+                    graphics.DrawLines(redPen, path);
+                    if (prediction != new Point())
+                    {
+                        graphics.DrawLine(bluePen, path.Last(), prediction);
+                    }
                 }
             }
             return bmp;
@@ -340,7 +395,25 @@ namespace FrameAnalyser
                         if (i >= 1 && frames.Count > i)
                         {
                             dto.Frame frame = frames[i];
-                            overlay(bmpBaseOriginal, frame).Save("AnnotatedImages-" + FileName + "/AnnotatedImage" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
+                            Point[] path = null;
+                            Point pred = new Point();
+                            //if (i > 23)
+                            //{
+                            //    path = frames.Skip(24).Take(i - 23)
+                            //        .Where(f => (f.Balls != null && f.Balls.Count > 0))
+                            //        .Select(f => f.Balls.First()).Select(b => b.Position)
+                            //        .Select(p => new Point(p.X, p.Y))
+                            //        .ToArray();
+                            //    if (i + 1 <frames.Count)
+                            //    {
+                            //        dto.Ball[] balls = frames[i + 1].Balls.ToArray();
+                            //        if (balls != null && balls.Length > 0)
+                            //        {
+                            //            pred = new Point(balls.First().Position.X, balls.First().Position.Y);
+                            //        }
+                            //    }
+                            //}
+                            overlay(bmpBaseOriginal, frame, path, pred).Save("AnnotatedImages-" + FileName + "/AnnotatedImage" + i.ToString() + ".png", System.Drawing.Imaging.ImageFormat.Png);
                         }
                         else if (frames.Count <= i)
                         {
