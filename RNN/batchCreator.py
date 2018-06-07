@@ -1,10 +1,11 @@
 import json
+import copy
 import glob
 from pprint import pprint
 
 BatchSize = 5
 
-jsonFiles = glob.glob("../Anotations/*.json");
+jsonFiles = glob.glob("../Anotations/Training*.json");
 print("Files found: " + str(len(jsonFiles)))
 
 allFrames = []
@@ -45,9 +46,26 @@ for i in range(BatchSize - 1, len(allFrames)):
         if frame["FrameNumber"] == frameNumber + BatchSize - 1 - o:
             balls = frame["Balls"]
             if balls != None and len(balls) > 0:
-                batch.append(frame)
+                batch.append(copy.deepcopy(frame))
     if (len(batch) == BatchSize):
         Batches.append(batch)
+
+# make batches relative
+for batch in Batches:
+    prevPos = None
+    for frame in batch:
+        ball = frame["Balls"][0]
+        if prevPos == None:
+            prevPos = copy.deepcopy(ball["Position"])
+            ball["Position"]["X"] = 0
+            ball["Position"]["Y"] = 0
+        else:
+            x = ball["Position"]["X"] - prevPos["X"]
+            y = ball["Position"]["Y"] - prevPos["Y"]
+            prevPos = copy.deepcopy(ball["Position"])
+            ball["Position"]["X"] = x
+            ball["Position"]["Y"] = y
+
 
 # print some more statistics
 print("Valid Batches: " + str(len(Batches)))
