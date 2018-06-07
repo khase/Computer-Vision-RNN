@@ -3,9 +3,9 @@ import copy
 import glob
 from pprint import pprint
 
-BatchSize = 5
+BatchSize = 10
 
-jsonFiles = glob.glob("../Anotations/Training*.json");
+jsonFiles = glob.glob("../Anotations/Training*.json")
 print("Files found: " + str(len(jsonFiles)))
 
 allFrames = []
@@ -62,7 +62,7 @@ for batch in Batches:
         else:
             x = ball["Position"]["X"] - prevPos["X"]
             y = ball["Position"]["Y"] - prevPos["Y"]
-            prevPos = copy.deepcopy(ball["Position"])
+            #prevPos = copy.deepcopy(ball["Position"])
             ball["Position"]["X"] = x
             ball["Position"]["Y"] = y
 
