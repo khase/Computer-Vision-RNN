@@ -34,17 +34,17 @@ namespace BatchVisualizer
                 bmp = new Bitmap(1920 * 2, 1080 * 2);
             }
 
-            //Point[] path = batch.Select(f => f.Balls.First().Position).Select(p => new Point(p.X, p.Y)).ToArray();
-            //for (int i = path.Length - 1; i >= 0; i--)
-            //{
-            //    for (int j = 0; j < i; j++)
-            //    {
-            //        path[i] = new Point(path[i].X + path[j].X, path[i].Y + path[j].Y);
-            //    }
-            //}
-            //path = path.Select(p => new Point(p.X + (1920), p.Y + (1080))).ToArray();
+            Point[] path = batch.Select(f => f.Balls.First().Position).Select(p => new Point(p.X, p.Y)).ToArray();
+            for (int i = path.Length - 1; i >= 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    path[i] = new Point(path[i].X + path[j].X, path[i].Y + path[j].Y);
+                }
+            }
+            path = path.Select(p => new Point(p.X + (1920), p.Y + (1080))).ToArray();
 
-            Point[] path = batch.Select(f => f.Balls.First().Position).Select(p => new Point(p.X + 1920, p.Y + 1080)).ToArray();
+            //Point[] path = batch.Select(f => f.Balls.First().Position).Select(p => new Point(p.X + 1920, p.Y + 1080)).ToArray();
 
             Pen redPen = new Pen(Color.Red, 3);
             Pen greenPen = new Pen(Color.Green, 3);
@@ -60,6 +60,17 @@ namespace BatchVisualizer
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             update(batches[e.NewValue]);
+            textBox1.Text = ("Batch: " + e.NewValue);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
