@@ -72,5 +72,57 @@ namespace BatchVisualizer
         {
 
         }
+
+        private int testeBatches()
+        {
+            int zähler = 0;
+            double faktor = 1.5;
+            int absolut = 50;
+            List<dto.Batch> batchesToDelete = new List<dto.Batch>();
+            int i = 0;
+            foreach (dto.Batch batch in batches)
+            {
+                double XactAbstand = -255;
+                double YactAbstand = -255;
+                double XlastAbstand = -255;
+                double YlastAbstand = -255;
+                bool runOnce = false;
+                bool runTwice = false;
+                FrameAnalyser.dto.Frame lastFrame = null;
+                foreach (FrameAnalyser.dto.Frame frame in batch)
+                {
+                    if (lastFrame == null)
+                    {
+                        lastFrame = frame;
+                        continue;
+                    }
+                    XactAbstand = lastFrame.Balls[0].Position.X - frame.Balls[0].Position.X;
+                    YactAbstand = lastFrame.Balls[0].Position.Y - frame.Balls[0].Position.Y;
+                    if ((Math.Abs(XactAbstand) > Math.Max((Math.Abs(XlastAbstand) * faktor), absolut)) || (Math.Abs(YactAbstand) > Math.Max((Math.Abs(YlastAbstand) * faktor), absolut)) && runTwice)
+                    {
+                        batchesToDelete.Add(batch);
+                        zähler++;
+                        break;
+                    }
+                    XlastAbstand = XactAbstand;
+                    YlastAbstand = YactAbstand;
+                    lastFrame = frame;
+                    if (runOnce)
+                        runTwice = true;
+                    runOnce = true;
+                }
+                i++;
+            }
+            batches = batches.Except(batchesToDelete).ToList();
+            File.WriteAllText("Gelöscht.json", Newtonsoft.Json.JsonConvert.SerializeObject(batchesToDelete, Newtonsoft.Json.Formatting.Indented));
+            File.WriteAllText("../../../../RNN/AugmentedBatchesNew.json", Newtonsoft.Json.JsonConvert.SerializeObject(batches, Newtonsoft.Json.Formatting.Indented));
+            hScrollBar1.Maximum = batches.Count;
+            return zähler;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(testeBatches().ToString() + " Batches gelöscht");
+        }
     }
 }

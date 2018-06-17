@@ -33,21 +33,21 @@ def loadBatch(data):
             if index < batchsize-1:
                 input.append(frame["Balls"][0]["Position"]["X"])
                 input.append(frame["Balls"][0]["Position"]["Y"])
-                input.append(frame["Balls"][0]["BoundingBox"]["Width"])
-                input.append(frame["Balls"][0]["BoundingBox"]["Height"])
+                #input.append(frame["Balls"][0]["BoundingBox"]["Width"])
+                #input.append(frame["Balls"][0]["BoundingBox"]["Height"])
             else:
                 output.append(frame["Balls"][0]["Position"]["X"])
                 output.append(frame["Balls"][0]["Position"]["Y"])
-                output.append(frame["Balls"][0]["BoundingBox"]["Width"])
-                output.append(frame["Balls"][0]["BoundingBox"]["Height"])
+                #output.append(frame["Balls"][0]["BoundingBox"]["Width"])
+                #output.append(frame["Balls"][0]["BoundingBox"]["Height"])
 
             index += 1
 
     batchsize = batchsize - 1
     input = np.asarray(input)
     output = np.asarray(output)
-    input = input.reshape((-1, batchsize-1, 4))  # The first index changing slowest, subseries as rows
-    output = output.reshape((-1, 4))
+    input = input.reshape((-1, batchsize-1, 2))  # The first index changing slowest, subseries as rows
+    output = output.reshape((-1, 2))
     print("input:")
     print(input)
     print("output:")
@@ -61,7 +61,7 @@ with open("AugmentedBatches.json") as f:
 model = Sequential()
 #Since we know the shape of our Data we can input the timestep and feature data
 #The number of timestep sequence are dealt with in the fit function
-model.add(LSTM(20, return_sequences=True, input_shape=(8, 4)))
+model.add(LSTM(20, return_sequences=True, input_shape=(8, 2)))
 model.add(Dropout(0.5))
 model.add(LSTM(20, return_sequences=True))
 model.add(Dropout(0.5))
@@ -70,14 +70,14 @@ model.add(Dropout(0.5))
 #number of features on the output
 #model.add(LSTM(50, input_shape=(9, 4)))
 #model.add(Dropout(0.2))
-model.add(Dense(4, activation='softmax'))
+model.add(Dense(2, activation='linear'))
 print("Compile")
 model.compile(loss='mean_absolute_error', optimizer='adam')
 print(model.summary())
 runs = 1
 #for n in range(5):
-csv_logger = CSVLogger('log20_20_20.txt', append=True, separator=';')
-file = "Own20_20_20.hdf5"
+csv_logger = CSVLogger('log20_20_20_l.txt', append=True, separator=';')
+file = "Own20_20_20_l.hdf5"
 while True:
     print ("Run no. " + str(runs) + ". Shuffling Data....")
     runs = runs + 1
