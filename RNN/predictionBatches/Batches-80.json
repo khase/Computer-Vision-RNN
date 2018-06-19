@@ -1,0 +1,84 @@
+[
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 116,
+            "Width": 138
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 1
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 137,
+            "Width": 117
+          },
+          "Position": {
+            "X": -71,
+            "Y": 198
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 2
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 135,
+            "Width": 117
+          },
+          "Position": {
+            "X": -73,
+            "Y": 222
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 3
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 134,
+            "Width": 111
+          },
+          "Position": {
+            "X": -73,
+            "Y": 251
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 4
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 129,
+            "Width": 125
+          },
+          "Position": {
+            "X": -68,
+            "Y": 269
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 5
+    }
+  ]
+]

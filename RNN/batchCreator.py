@@ -3,7 +3,7 @@ import copy
 import glob
 from pprint import pprint
 
-BatchSize = 10
+BatchSize = 5
 
 jsonFiles = glob.glob("../Anotations/Training*.json")
 print("Files found: " + str(len(jsonFiles)))

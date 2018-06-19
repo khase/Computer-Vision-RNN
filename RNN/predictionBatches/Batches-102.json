@@ -1,0 +1,1743 @@
+[
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 73,
+            "Width": 66
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 1
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 91,
+            "Width": 101
+          },
+          "Position": {
+            "X": -85,
+            "Y": -113
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 2
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 97
+          },
+          "Position": {
+            "X": -106,
+            "Y": -98
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 3
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 100
+          },
+          "Position": {
+            "X": -104,
+            "Y": -89
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 4
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 97
+          },
+          "Position": {
+            "X": -106,
+            "Y": -71
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 79,
+            "Width": 100
+          },
+          "Position": {
+            "X": 90,
+            "Y": 1022
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 5
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 91,
+            "Width": 101
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 2
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 97
+          },
+          "Position": {
+            "X": -106,
+            "Y": -98
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 3
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 100
+          },
+          "Position": {
+            "X": -104,
+            "Y": -89
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 4
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 97
+          },
+          "Position": {
+            "X": -106,
+            "Y": -71
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 79,
+            "Width": 100
+          },
+          "Position": {
+            "X": 90,
+            "Y": 1022
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 5
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 99
+          },
+          "Position": {
+            "X": -108,
+            "Y": -59
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 80,
+            "Width": 96
+          },
+          "Position": {
+            "X": 220,
+            "Y": 866
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 6
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 97
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 3
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 100
+          },
+          "Position": {
+            "X": -104,
+            "Y": -89
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 4
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 97
+          },
+          "Position": {
+            "X": -106,
+            "Y": -71
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 79,
+            "Width": 100
+          },
+          "Position": {
+            "X": 90,
+            "Y": 1022
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 5
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 99
+          },
+          "Position": {
+            "X": -108,
+            "Y": -59
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 80,
+            "Width": 96
+          },
+          "Position": {
+            "X": 220,
+            "Y": 866
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 6
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 105
+          },
+          "Position": {
+            "X": -106,
+            "Y": -43
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 7
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 100
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 4
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 97
+          },
+          "Position": {
+            "X": -106,
+            "Y": -71
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 79,
+            "Width": 100
+          },
+          "Position": {
+            "X": 90,
+            "Y": 1022
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 5
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 99
+          },
+          "Position": {
+            "X": -108,
+            "Y": -59
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 80,
+            "Width": 96
+          },
+          "Position": {
+            "X": 220,
+            "Y": 866
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 6
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 105
+          },
+          "Position": {
+            "X": -106,
+            "Y": -43
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 7
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 101
+          },
+          "Position": {
+            "X": -108,
+            "Y": -26
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 81,
+            "Width": 88
+          },
+          "Position": {
+            "X": 483,
+            "Y": 594
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 8
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 97
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 79,
+            "Width": 100
+          },
+          "Position": {
+            "X": 90,
+            "Y": 1022
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 5
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 99
+          },
+          "Position": {
+            "X": -108,
+            "Y": -59
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 80,
+            "Width": 96
+          },
+          "Position": {
+            "X": 220,
+            "Y": 866
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 6
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 105
+          },
+          "Position": {
+            "X": -106,
+            "Y": -43
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 7
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 101
+          },
+          "Position": {
+            "X": -108,
+            "Y": -26
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 81,
+            "Width": 88
+          },
+          "Position": {
+            "X": 483,
+            "Y": 594
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 8
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 94
+          },
+          "Position": {
+            "X": -110,
+            "Y": -10
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 9
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 99
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 80,
+            "Width": 96
+          },
+          "Position": {
+            "X": 220,
+            "Y": 866
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 6
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 105
+          },
+          "Position": {
+            "X": -106,
+            "Y": -43
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 7
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 101
+          },
+          "Position": {
+            "X": -108,
+            "Y": -26
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 81,
+            "Width": 88
+          },
+          "Position": {
+            "X": 483,
+            "Y": 594
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 8
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 94
+          },
+          "Position": {
+            "X": -110,
+            "Y": -10
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 9
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 98
+          },
+          "Position": {
+            "X": -110,
+            "Y": 5
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 89,
+            "Width": 101
+          },
+          "Position": {
+            "X": 760,
+            "Y": 376
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 10
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 93,
+            "Width": 105
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 7
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 101
+          },
+          "Position": {
+            "X": -108,
+            "Y": -26
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 81,
+            "Width": 88
+          },
+          "Position": {
+            "X": 483,
+            "Y": 594
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 8
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 94
+          },
+          "Position": {
+            "X": -110,
+            "Y": -10
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 9
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 98
+          },
+          "Position": {
+            "X": -110,
+            "Y": 5
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 89,
+            "Width": 101
+          },
+          "Position": {
+            "X": 760,
+            "Y": 376
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 10
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 103
+          },
+          "Position": {
+            "X": -112,
+            "Y": 23
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 11
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 101
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 81,
+            "Width": 88
+          },
+          "Position": {
+            "X": 483,
+            "Y": 594
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 8
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 94
+          },
+          "Position": {
+            "X": -110,
+            "Y": -10
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 9
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 98
+          },
+          "Position": {
+            "X": -110,
+            "Y": 5
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 89,
+            "Width": 101
+          },
+          "Position": {
+            "X": 760,
+            "Y": 376
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 10
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 103
+          },
+          "Position": {
+            "X": -112,
+            "Y": 23
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 11
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 102
+          },
+          "Position": {
+            "X": -109,
+            "Y": 42
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 12
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 94
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 9
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 98
+          },
+          "Position": {
+            "X": -110,
+            "Y": 5
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 89,
+            "Width": 101
+          },
+          "Position": {
+            "X": 760,
+            "Y": 376
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 10
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 103
+          },
+          "Position": {
+            "X": -112,
+            "Y": 23
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 11
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 102
+          },
+          "Position": {
+            "X": -109,
+            "Y": 42
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 12
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 97
+          },
+          "Position": {
+            "X": -110,
+            "Y": 59
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 13
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 98
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 89,
+            "Width": 101
+          },
+          "Position": {
+            "X": 760,
+            "Y": 376
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 10
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 103
+          },
+          "Position": {
+            "X": -112,
+            "Y": 23
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 11
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 102
+          },
+          "Position": {
+            "X": -109,
+            "Y": 42
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 12
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 97
+          },
+          "Position": {
+            "X": -110,
+            "Y": 59
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 13
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 104
+          },
+          "Position": {
+            "X": -108,
+            "Y": 77
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 98
+          },
+          "Position": {
+            "X": 1340,
+            "Y": 127
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 14
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 94,
+            "Width": 103
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 11
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 102
+          },
+          "Position": {
+            "X": -109,
+            "Y": 42
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 12
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 97
+          },
+          "Position": {
+            "X": -110,
+            "Y": 59
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 13
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 104
+          },
+          "Position": {
+            "X": -108,
+            "Y": 77
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 98
+          },
+          "Position": {
+            "X": 1340,
+            "Y": 127
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 14
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 104
+          },
+          "Position": {
+            "X": -109,
+            "Y": 93
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 100
+          },
+          "Position": {
+            "X": 1489,
+            "Y": 102
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 15
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 102
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 12
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 97
+          },
+          "Position": {
+            "X": -110,
+            "Y": 59
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 13
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 104
+          },
+          "Position": {
+            "X": -108,
+            "Y": 77
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 98
+          },
+          "Position": {
+            "X": 1340,
+            "Y": 127
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 14
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 104
+          },
+          "Position": {
+            "X": -109,
+            "Y": 93
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 100
+          },
+          "Position": {
+            "X": 1489,
+            "Y": 102
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 15
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 98
+          },
+          "Position": {
+            "X": -107,
+            "Y": 111
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 107
+          },
+          "Position": {
+            "X": 1642,
+            "Y": 92
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 16
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 101,
+            "Width": 97
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 13
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 104
+          },
+          "Position": {
+            "X": -108,
+            "Y": 77
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 98
+          },
+          "Position": {
+            "X": 1340,
+            "Y": 127
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 14
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 104
+          },
+          "Position": {
+            "X": -109,
+            "Y": 93
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 100
+          },
+          "Position": {
+            "X": 1489,
+            "Y": 102
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 15
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 98
+          },
+          "Position": {
+            "X": -107,
+            "Y": 111
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 107
+          },
+          "Position": {
+            "X": 1642,
+            "Y": 92
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 16
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 101
+          },
+          "Position": {
+            "X": -109,
+            "Y": 132
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 96,
+            "Width": 101
+          },
+          "Position": {
+            "X": 1794,
+            "Y": 107
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 17
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 104
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 92,
+            "Width": 98
+          },
+          "Position": {
+            "X": 1340,
+            "Y": 127
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 14
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 104
+          },
+          "Position": {
+            "X": -109,
+            "Y": 93
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 100
+          },
+          "Position": {
+            "X": 1489,
+            "Y": 102
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 15
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 98
+          },
+          "Position": {
+            "X": -107,
+            "Y": 111
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 107
+          },
+          "Position": {
+            "X": 1642,
+            "Y": 92
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 16
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 101
+          },
+          "Position": {
+            "X": -109,
+            "Y": 132
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 96,
+            "Width": 101
+          },
+          "Position": {
+            "X": 1794,
+            "Y": 107
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 17
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 101
+          },
+          "Position": {
+            "X": -107,
+            "Y": 150
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 18
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 98,
+            "Width": 104
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 100
+          },
+          "Position": {
+            "X": 1489,
+            "Y": 102
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 15
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 98
+          },
+          "Position": {
+            "X": -107,
+            "Y": 111
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 107
+          },
+          "Position": {
+            "X": 1642,
+            "Y": 92
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 16
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 101
+          },
+          "Position": {
+            "X": -109,
+            "Y": 132
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 96,
+            "Width": 101
+          },
+          "Position": {
+            "X": 1794,
+            "Y": 107
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 17
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 101
+          },
+          "Position": {
+            "X": -107,
+            "Y": 150
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 18
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 104,
+            "Width": 86
+          },
+          "Position": {
+            "X": -94,
+            "Y": 173
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 19
+    }
+  ],
+  [
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 98
+          },
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 95,
+            "Width": 107
+          },
+          "Position": {
+            "X": 1642,
+            "Y": 92
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 16
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 101
+          },
+          "Position": {
+            "X": -109,
+            "Y": 132
+          },
+          "Tag": 0
+        },
+        {
+          "BoundingBox": {
+            "Height": 96,
+            "Width": 101
+          },
+          "Position": {
+            "X": 1794,
+            "Y": 107
+          },
+          "Tag": 1
+        }
+      ],
+      "FrameNumber": 17
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 99,
+            "Width": 101
+          },
+          "Position": {
+            "X": -107,
+            "Y": 150
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 18
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 104,
+            "Width": 86
+          },
+          "Position": {
+            "X": -94,
+            "Y": 173
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 19
+    },
+    {
+      "Balls": [
+        {
+          "BoundingBox": {
+            "Height": 97,
+            "Width": 69
+          },
+          "Position": {
+            "X": 7,
+            "Y": -5
+          },
+          "Tag": 0
+        }
+      ],
+      "FrameNumber": 20
+    }
+  ]
+]
