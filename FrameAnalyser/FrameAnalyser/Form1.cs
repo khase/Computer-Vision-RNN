@@ -20,6 +20,9 @@ namespace FrameAnalyser
             InitializeComponent();
         }
 
+        bool locking = false;
+        Point[] predictionOld;
+
         string VideoPath = @"..\..\..\..\Videos\";
         string AnnotationPath = @"..\..\..\..\Anotations\";
         string FileName = "Training-5.mp4";
@@ -113,7 +116,6 @@ namespace FrameAnalyser
                 update();
             }
         }
-
         private void update()
         {
             if (i >= 1 && frames.Count > i)
@@ -125,9 +127,9 @@ namespace FrameAnalyser
                         .Select(p => new Point(p.X, p.Y))
                         .ToArray();
                 Point[] prediction = null;
-                if (predictions != null && i >= 4 && i - 4 < predictions.Count)
+                if (predictions != null && path.Length >= 5 && path.Length - 5 < predictions.Count)
                 {
-                    prediction = predictions[i - 4].Skip(4)
+                    prediction = predictions[path.Length - 5].Skip(3)
                         .Where(f => (f.Balls != null && f.Balls.Count > 0))
                         .Select(f => f.Balls.First()).Select(b => b.Position)
                         .Select(p => new Point(p.X, p.Y))
@@ -182,24 +184,35 @@ namespace FrameAnalyser
                 if (path != null && path.Length > 1)
                 {
                     graphics.DrawLines(redPen, path);
-                    if (prediction != null && prediction.Length > 1)
+                    foreach (Point p in path)
+                        graphics.DrawEllipse(greenPen, p.X - 3, p.Y - 3, 6, 6);
+                    if ((prediction != null && prediction.Length > 1) || locking)
                     {
-                        for(int i = 0; i < prediction.Length; i++)
+                        if (!locking)
                         {
-                            if (i == 0)
+                            for (int i = 0; i < prediction.Length; i++)
                             {
-                                prediction[i].X += path.Last().X;
-                                prediction[i].Y += path.Last().Y;
-                            } else
-                            {
-                                prediction[i].X += prediction[i - 1].X;
-                                prediction[i].Y += prediction[i - 1].Y;
+                                if (i == 0)
+                                {
+                                    prediction[i].X += path.Last().X;
+                                    prediction[i].Y += path.Last().Y;
+                                }
+                                else
+                                {
+                                    prediction[i].X += prediction[i - 1].X;
+                                    prediction[i].Y += prediction[i - 1].Y;
+                                }
                             }
+                            var tmp = prediction.ToList();
+                            tmp.Insert(0, path.Last());
+                            prediction = tmp.ToArray();
+                            predictionOld = prediction;
                         }
-                        var tmp = prediction.ToList();
-                        tmp.Insert(0, path.Last());
-                        prediction = tmp.ToArray();
+                        else
+                            prediction = predictionOld;
                         graphics.DrawLines(bluePen, prediction);
+                        foreach (Point p in prediction)
+                            graphics.DrawEllipse(greenPen, p.X-3, p.Y-3,6,6);
                     }
                 }
             }
@@ -499,6 +512,11 @@ namespace FrameAnalyser
             loadFrame();
             clear();
             update();
+        }
+        
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            locking = checkBox1.Checked;
         }
     }
 }

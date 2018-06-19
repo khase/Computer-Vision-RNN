@@ -1,0 +1,4006 @@
+[
+[
+	{
+		"FrameNumber": 1,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -102, "Y": -133},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 2,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -104, "Y": -124},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 3,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -109, "Y": -107},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 4,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -108, "Y": -93},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 5,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -92, "Y": -55},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 6,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -93, "Y": -43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 7,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -80, "Y": -25},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 8,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -73, "Y": -14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 9,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -69, "Y": -5},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 10,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -51, "Y": 1},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 11,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -39, "Y": 4},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 12,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 6},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 13,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 7},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 14,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 9},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 15,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 11},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 16,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -27, "Y": 12},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 17,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 18,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -27, "Y": 16},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 19,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -25, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 20,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 19},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 21,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 22,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 22},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 23,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -27, "Y": 24},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 24,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 25},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 25,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 27},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 26,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 29},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 27,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 31},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 28,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 33},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 29,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 35},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 30,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 37},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 31,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 39},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 32,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 33,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 34,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 35,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 36,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 45},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 37,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -27, "Y": 45},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 38,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 45},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 39,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -24, "Y": 46},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 40,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -23, "Y": 45},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 41,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 45},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 42,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -21, "Y": 45},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 43,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -21, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 44,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 45,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 46,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 47,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 48,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 49,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 50,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 51,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 52,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	}],[
+	{
+		"FrameNumber": 2,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -104, "Y": -124},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 3,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -109, "Y": -107},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 4,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -108, "Y": -93},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 5,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -108, "Y": -78},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 6,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -94, "Y": -47},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 7,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -93, "Y": -33},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 8,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -80, "Y": -15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 9,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -72, "Y": -6},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 10,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -69, "Y": 3},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 11,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -50, "Y": 6},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 12,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 9},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 13,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 10},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 14,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 11},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 15,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 16,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 17,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 16},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 18,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 19,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 20,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 19},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 21,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 19},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 22,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 23,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 21},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 24,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 22},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 25,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 23},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 26,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 23},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 27,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 24},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 28,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 24},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 29,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 25},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 30,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 25},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 31,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 26},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 32,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 27},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 33,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -27, "Y": 28},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 34,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -27, "Y": 29},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 35,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 31},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 36,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -25, "Y": 33},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 37,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -25, "Y": 35},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 38,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -24, "Y": 38},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 39,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -24, "Y": 39},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 40,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -23, "Y": 40},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 41,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -23, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 42,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 43,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 44,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -21, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 45,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -21, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 46,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 47,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 48,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 49,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 50,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 51,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 52,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 53,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 41},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	}],[
+	{
+		"FrameNumber": 3,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -109, "Y": -107},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 4,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -108, "Y": -93},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 5,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -108, "Y": -78},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 6,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -109, "Y": -59},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 7,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -94, "Y": -35},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 8,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -92, "Y": -14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 9,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -73, "Y": -1},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 10,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -71, "Y": 10},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 11,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -69, "Y": 13},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 12,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 16},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 13,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 14,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -40, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 15,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 16,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -45, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 17,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -44, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 18,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -43, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 19,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -44, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 20,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -43, "Y": 15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 21,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -41, "Y": 16},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 22,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 23,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 12},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 24,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -40, "Y": 13},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 25,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -41, "Y": 10},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 26,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -41, "Y": 10},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 27,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 12},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 28,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 9},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 29,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 12},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 30,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 31,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 11},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 32,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 33,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 16},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 34,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 35,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 36,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 37,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 38,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 39,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 40,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 41,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 42,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 43,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 44,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 45,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 46,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 47,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 19},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 48,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 49,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 50,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 51,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 52,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 53,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 54,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	}],[
+	{
+		"FrameNumber": 4,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -108, "Y": -93},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 5,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -108, "Y": -78},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 6,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -109, "Y": -59},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 7,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -107, "Y": -39},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 8,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -93, "Y": -21},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 9,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -89, "Y": -4},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 10,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -70, "Y": 6},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 11,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -71, "Y": 12},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 12,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -67, "Y": 19},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 13,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 14,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -45, "Y": 22},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 15,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -41, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 16,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 17,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -45, "Y": 20},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 18,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 19,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 20,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -43, "Y": 18},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 21,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 16},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 22,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 23,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 24,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 13},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 25,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 13},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 26,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -41, "Y": 12},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 27,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -41, "Y": 10},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 28,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -39, "Y": 11},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 29,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 9},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 30,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 8},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 31,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 11},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 32,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 8},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 33,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 10},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 34,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 12},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 35,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 9},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 36,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 37,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 14},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 38,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 13},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 39,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 16},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 40,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 15},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 41,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 17},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 42,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 19},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 43,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 19},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 44,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 21},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 45,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 21},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 46,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 22},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 47,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 23},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 48,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 23},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 49,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 24},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 50,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 24},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 51,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 25},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 52,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 26},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 53,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 27},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 54,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -27, "Y": 28},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 55,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 30},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	}],[
+	{
+		"FrameNumber": 5,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -101, "Y": 57},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 6,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -95, "Y": 70},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 7,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -94, "Y": 87},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 8,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -90, "Y": 100},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 9,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -79, "Y": 76},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 10,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -76, "Y": 80},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 11,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -73, "Y": 80},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 12,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -65, "Y": 64},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 13,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -58, "Y": 66},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 14,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -53, "Y": 66},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 15,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -47, "Y": 54},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 16,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 57},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 17,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -39, "Y": 57},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 18,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -39, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 19,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 55},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 20,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 55},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 21,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 22,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 54},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 23,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 54},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 24,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 52},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 25,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 26,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 27,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 51},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 28,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 51},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 29,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 51},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 30,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 50},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 31,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 50},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 32,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 50},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 33,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -25, "Y": 49},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 34,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -24, "Y": 48},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 35,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 48},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 36,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 47},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 37,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -21, "Y": 46},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 38,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 46},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 39,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 40,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 41,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 42,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 43,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 44,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 45,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 46,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 47,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 48,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 49,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 50,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 51,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 52,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 53,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 54,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 55,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 56,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	}],[
+	{
+		"FrameNumber": 6,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -95, "Y": 70},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 7,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -94, "Y": 87},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 8,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -90, "Y": 100},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 9,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -89, "Y": 116},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 10,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -79, "Y": 86},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 11,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -77, "Y": 89},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 12,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -74, "Y": 82},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 13,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -67, "Y": 74},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 14,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -60, "Y": 74},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 15,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -56, "Y": 70},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 16,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -49, "Y": 64},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 17,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -44, "Y": 64},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 18,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 61},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 19,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -40, "Y": 59},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 20,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 60},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 21,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 59},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 22,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 58},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 23,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 59},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 24,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 58},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 25,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 57},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 26,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 57},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 27,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 56},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 28,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 55},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 29,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 55},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 30,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 54},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 31,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 32,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 33,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 34,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 52},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 35,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 52},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 36,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 51},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 37,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 50},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 38,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 50},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 39,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 49},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 40,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -25, "Y": 48},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 41,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -24, "Y": 48},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 42,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 47},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 43,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 47},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 44,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -21, "Y": 46},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 45,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 46},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 46,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 47,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 48,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 49,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 50,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 51,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 52,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 53,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 54,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 55,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 56,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 57,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	}],[
+	{
+		"FrameNumber": 7,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -94, "Y": 87},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 8,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -90, "Y": 100},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 9,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -89, "Y": 116},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 10,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -81, "Y": 129},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 11,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -77, "Y": 95},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 12,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -76, "Y": 100},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 13,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -70, "Y": 82},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 14,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -67, "Y": 79},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 15,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -60, "Y": 80},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 16,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -54, "Y": 72},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 17,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -49, "Y": 69},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 18,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -44, "Y": 70},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 19,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -42, "Y": 65},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 20,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -40, "Y": 64},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 21,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -39, "Y": 66},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 22,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -39, "Y": 63},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 23,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 63},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 24,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 64},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 25,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 62},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 26,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 62},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 27,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 62},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 28,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 61},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 29,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -38, "Y": 61},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 30,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 60},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 31,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 59},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 32,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -37, "Y": 59},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 33,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 58},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 34,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 57},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 35,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -36, "Y": 57},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 36,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 56},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 37,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -35, "Y": 55},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 38,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 55},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 39,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -34, "Y": 54},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 40,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -33, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 41,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 53},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 42,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -32, "Y": 52},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 43,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -31, "Y": 52},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 44,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -30, "Y": 51},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 45,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -29, "Y": 50},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 46,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -28, "Y": 50},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 47,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -26, "Y": 49},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 48,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -25, "Y": 48},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 49,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -24, "Y": 48},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 50,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 47},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 51,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -22, "Y": 47},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 52,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -21, "Y": 46},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 53,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 46},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 54,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -20, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 55,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 44},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 56,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 57,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 43},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	},
+	{
+		"FrameNumber": 58,
+		"Balls":
+		[
+
+			{
+				"Position": {"X": -19, "Y": 42},
+				"BoundingBox": {"Width": 40, "Height": 40}
+			}
+		]
+	}],[]]
