@@ -48,25 +48,26 @@ def loadBatch(data):
     output = np.asarray(output)
     input = input.reshape((-1, batchsize-1, 2))  # The first index changing slowest, subseries as rows
     output = output.reshape((-1, 2))
-    print("input:")
-    print(input)
-    print("output:")
-    print(output)
+    #print("input:")
+    #print(input)
+    #print("output:")
+    #print(output)
     return (input, output)
 
-with open("AugmentedBatches.json") as f:
+batchsize = 0
+with open("AugmentedBatchesNew.json") as f:
     data = json.load(f)
 
 #np.set_printoptions(threshold=np.inf)
 model = Sequential()
 #Since we know the shape of our Data we can input the timestep and feature data
 #The number of timestep sequence are dealt with in the fit function
-model.add(LSTM(20, return_sequences=True, input_shape=(8, 2)))
-model.add(Dropout(0.5))
+model.add(LSTM(20, return_sequences=True, input_shape=(4, 2)))
+model.add(Dropout(0.4))
 model.add(LSTM(20, return_sequences=True))
-model.add(Dropout(0.5))
+model.add(Dropout(0.4))
 model.add(LSTM(20))
-model.add(Dropout(0.5))
+model.add(Dropout(0.4))
 #number of features on the output
 #model.add(LSTM(50, input_shape=(9, 4)))
 #model.add(Dropout(0.2))
@@ -76,8 +77,8 @@ model.compile(loss='mean_absolute_error', optimizer='adam')
 print(model.summary())
 runs = 1
 #for n in range(5):
-csv_logger = CSVLogger('log20_20_20_l.txt', append=True, separator=';')
-file = "Own20_20_20_l.hdf5"
+csv_logger = CSVLogger('log20_20_20_batch5.txt', append=True, separator=';')
+file = "Own20_20_20_batch5.hdf5"
 while True:
     print ("Run no. " + str(runs) + ". Shuffling Data....")
     runs = runs + 1
@@ -85,9 +86,6 @@ while True:
     if (os.path.isfile(file)):
         print("Loading Weights")
         model.load_weights(file)
-    print("Fit")
-    print("Fit2")
-    model.fit(X, y, epochs=10, batch_size=1000, callbacks=[csv_logger])
-    #model.fit(X, y, epochs=10, batch_size=1000)
+    model.fit(X, y, epochs=20, batch_size=1000, callbacks=[csv_logger])
     print("Saving Weights")
     model.save_weights(file)

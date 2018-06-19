@@ -22,9 +22,10 @@ namespace BatchVisualizer
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/AugmentedBatches.json"));
+            //batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/AugmentedBatches.json"));
+            batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/PredictedBatches.json"));
             hScrollBar1.Minimum = 0;
-            hScrollBar1.Maximum = batches.Count;
+            hScrollBar1.Maximum = batches.Count+7;
         }
 
         private void update(dto.Batch batch)
@@ -34,7 +35,7 @@ namespace BatchVisualizer
                 bmp = new Bitmap(1920 * 2, 1080 * 2);
             }
 
-            Point[] path = batch.Select(f => f.Balls.First().Position).Select(p => new Point(p.X, p.Y)).ToArray();
+            Point[] path = batch.Where(f => f != null).Select(f => f.Balls.First().Position).Select(p => new Point(p.X, p.Y)).ToArray();
             for (int i = path.Length - 1; i >= 0; i--)
             {
                 for (int j = 0; j < i; j++)
@@ -53,6 +54,10 @@ namespace BatchVisualizer
             {
                 graphics.Clear(Color.White);
                 graphics.DrawLines(greenPen, path);
+                foreach (Point p in path)
+                {
+                    graphics.DrawEllipse(bluePen, p.X - 2, p.Y - 2, 4, 4);
+                }
             }
             pictureBox1.Image = bmp;
         }
@@ -60,7 +65,7 @@ namespace BatchVisualizer
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             update(batches[e.NewValue]);
-            textBox1.Text = ("Batch: " + e.NewValue);
+            textBox1.Text = ("Batch: " + e.NewValue + "Länge:" +  batches[e.NewValue].Count());
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

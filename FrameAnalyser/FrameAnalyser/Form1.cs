@@ -25,6 +25,7 @@ namespace FrameAnalyser
         string FileName = "Training-5.mp4";
 
         List<dto.Frame> frames = new List<dto.Frame>();
+        List<dto.Batch> predictions = new List<dto.Batch>();
         VideoFileReader vFReader = new VideoFileReader();
         int i = 0;
         Bitmap origFrame = null;
@@ -118,7 +119,21 @@ namespace FrameAnalyser
             if (i >= 1 && frames.Count > i)
             {
                 dto.Frame frame = frames[i - 1];
-                overlay((Bitmap)pictureBox1.Image, frame);
+                Point[] path = frames.Take(i)
+                        .Where(f => (f.Balls != null && f.Balls.Count > 0))
+                        .Select(f => f.Balls.First()).Select(b => b.Position)
+                        .Select(p => new Point(p.X, p.Y))
+                        .ToArray();
+                Point[] prediction = null;
+                if (predictions != null && i >= 4 && i - 4 < predictions.Count)
+                {
+                    prediction = predictions[i - 4].Skip(4)
+                        .Where(f => (f.Balls != null && f.Balls.Count > 0))
+                        .Select(f => f.Balls.First()).Select(b => b.Position)
+                        .Select(p => new Point(p.X, p.Y))
+                        .ToArray();
+                }
+                overlay((Bitmap)pictureBox1.Image, frame, path, prediction);
             }
             else if (frames.Count <= i)
             {
@@ -150,7 +165,7 @@ namespace FrameAnalyser
             this.Text = i + " / " + (vFReader.FrameCount - 1);
         }
 
-        private Bitmap overlay(Bitmap bmp, dto.Frame frame, Point[] path = null, Point prediction = new Point())
+        private Bitmap overlay(Bitmap bmp, dto.Frame frame, Point[] path = null, Point[] prediction = null)
         {
             if (bmp == null || frame == null)
                 return bmp;
@@ -167,9 +182,24 @@ namespace FrameAnalyser
                 if (path != null && path.Length > 1)
                 {
                     graphics.DrawLines(redPen, path);
-                    if (prediction != new Point())
+                    if (prediction != null && prediction.Length > 1)
                     {
-                        graphics.DrawLine(bluePen, path.Last(), prediction);
+                        for(int i = 0; i < prediction.Length; i++)
+                        {
+                            if (i == 0)
+                            {
+                                prediction[i].X += path.Last().X;
+                                prediction[i].Y += path.Last().Y;
+                            } else
+                            {
+                                prediction[i].X += prediction[i - 1].X;
+                                prediction[i].Y += prediction[i - 1].Y;
+                            }
+                        }
+                        var tmp = prediction.ToList();
+                        tmp.Insert(0, path.Last());
+                        prediction = tmp.ToArray();
+                        graphics.DrawLines(bluePen, prediction);
                     }
                 }
             }
@@ -396,7 +426,7 @@ namespace FrameAnalyser
                         {
                             dto.Frame frame = frames[i];
                             Point[] path = null;
-                            Point pred = new Point();
+                            Point[] pred = null;
                             //if (i > 23)
                             //{
                             //    path = frames.Skip(24).Take(i - 23)
@@ -456,16 +486,12 @@ namespace FrameAnalyser
             FileInfo pInfo = new FileInfo(AnnotationPath + FileName.Split('.').First().Replace("Training", "Prediction") + ".json");
             if (pInfo.Exists)
             {
-                if (MessageBox.Show("Prediction-File found, wan't to load it?", "Prediction", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(pInfo.FullName));
-                }
-                else if (tInfo.Exists)
-                {
-                    frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(tInfo.FullName));
-                }
+                predictions = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText(pInfo.FullName));
+            } else
+            {
+                predictions = null;
             }
-            else if (tInfo.Exists)
+            if (tInfo.Exists)
             {
                 frames = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Frame>>(File.ReadAllText(tInfo.FullName));
             }
