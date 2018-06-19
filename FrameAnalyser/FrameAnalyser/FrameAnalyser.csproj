@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dto\Ball.cs" />
+    <Compile Include="dto\Batch.cs" />
     <Compile Include="dto\Box.cs" />
     <Compile Include="dto\Frame.cs" />
     <Compile Include="dto\Point.cs" />
