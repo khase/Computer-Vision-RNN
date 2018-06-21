@@ -22,8 +22,8 @@ namespace BatchVisualizer
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/AugmentedBatches.json"));
-            batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/PredictedBatches.json"));
+            batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("../../../../RNN/AugmentedBatches.json"));
+            //batches = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dto.Batch>>(File.ReadAllText("Gelöscht.json"));
             hScrollBar1.Minimum = 0;
             hScrollBar1.Maximum = batches.Count+7;
         }

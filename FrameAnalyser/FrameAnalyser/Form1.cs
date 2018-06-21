@@ -513,6 +513,28 @@ namespace FrameAnalyser
             clear();
             update();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            VideoFileWriter wrt = new VideoFileWriter();
+            string path = VideoPath + FileName.Split('.').First() + "-prediction.mp4";
+            Console.WriteLine("Saving video to: " + path);
+            wrt.Open(path, 1920, 1080, 5, VideoCodec.MPEG4, 20 * (10 ^ 6));
+            
+            for (i = 0; i < vFReader.FrameCount; i++)
+            {
+                loadFrame();
+                clear();
+                update();
+                this.Invalidate();
+                this.Update();
+                this.Refresh();
+                wrt.WriteVideoFrame((Bitmap)pictureBox1.Image);
+            }
+
+            wrt.Flush();
+            wrt.Close();
+        }
         
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
